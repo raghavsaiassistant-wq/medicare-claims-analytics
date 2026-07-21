@@ -1,0 +1,14 @@
+# Build artifacts
+data/raw/
+data/healthcare.duckdb
+data/exports/*.parquet
+data/exports/*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
