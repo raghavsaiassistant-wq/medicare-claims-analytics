@@ -270,7 +270,21 @@ async function loadGz(path) {
   const r = await fetch(path);
   if (!r.ok) throw new Error(`${path} HTTP ${r.status}`);
   const buf = await r.arrayBuffer();
-  const decompressed = pako.ungzip(new Uint8Array(buf), { to: 'string' });
+  let decompressed;
+  try {
+    // Method A: Use browser's built-in DecompressionStream (no pako needed)
+    if (typeof DecompressionStream !== 'undefined') {
+      const ds = new DecompressionStream('gzip');
+      const stream = new Response(new Blob([buf]).stream().pipeThrough(ds));
+      decompressed = await new Response(stream).text();
+    } else {
+      // Method B: Fall back to pako
+      const arr = pako.ungzip(new Uint8Array(buf));
+      decompressed = new TextDecoder().decode(arr);
+    }
+  } catch (e) {
+    throw new Error(`${path} decompression failed: ${e.message}`);
+  }
   if (decompressed.trim().startsWith('<')) {
     throw new Error(`${path} decompressed to HTML, not JSON. First chars: ${decompressed.slice(0, 80)}`);
   }
