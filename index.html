@@ -275,8 +275,8 @@ async function loadGz(path) {
     // Method A: Use browser's built-in DecompressionStream (no pako needed)
     if (typeof DecompressionStream !== 'undefined') {
       const ds = new DecompressionStream('gzip');
-      const stream = new Response(new Blob([buf]).stream().pipeThrough(ds));
-      decompressed = await new Response(stream).text();
+      const decompressedStream = new Blob([buf]).stream().pipeThrough(ds);
+      decompressed = await new Response(decompressedStream).text();
     } else {
       // Method B: Fall back to pako
       const arr = pako.ungzip(new Uint8Array(buf));
