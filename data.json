@@ -6203,5 +6203,335 @@
       "fills": 123,
       "revenue": 27383.0
     }
+  ],
+  "ta_patients": [
+    {
+      "condition": "Viral sinusitis (disorder)",
+      "patients": 743
+    },
+    {
+      "condition": "Acute viral pharyngitis (disorder)",
+      "patients": 492
+    },
+    {
+      "condition": "Acute bronchitis (disorder)",
+      "patients": 464
+    },
+    {
+      "condition": "Body mass index 30+ - obesity (finding)",
+      "patients": 449
+    },
+    {
+      "condition": "Prediabetes",
+      "patients": 317
+    },
+    {
+      "condition": "Hypertension",
+      "patients": 302
+    },
+    {
+      "condition": "Anemia (disorder)",
+      "patients": 300
+    },
+    {
+      "condition": "Chronic sinusitis (disorder)",
+      "patients": 233
+    },
+    {
+      "condition": "Miscarriage in first trimester",
+      "patients": 221
+    },
+    {
+      "condition": "Normal pregnancy",
+      "patients": 205
+    },
+    {
+      "condition": "Otitis media",
+      "patients": 143
+    },
+    {
+      "condition": "Streptococcal sore throat (disorder)",
+      "patients": 140
+    },
+    {
+      "condition": "Hyperlipidemia",
+      "patients": 136
+    },
+    {
+      "condition": "Sprain of ankle",
+      "patients": 125
+    },
+    {
+      "condition": "Diabetes",
+      "patients": 76
+    }
+  ],
+  "ta_enc_cost": [
+    {
+      "condition": "Viral sinusitis (disorder)",
+      "patients": 743,
+      "total_cost": 4507166.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Body mass index 30+ - obesity (finding)",
+      "patients": 449,
+      "total_cost": 3429404.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Acute viral pharyngitis (disorder)",
+      "patients": 492,
+      "total_cost": 3183896.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Acute bronchitis (disorder)",
+      "patients": 464,
+      "total_cost": 2959985.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Anemia (disorder)",
+      "patients": 300,
+      "total_cost": 2951099.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Hypertension",
+      "patients": 302,
+      "total_cost": 2776862.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Prediabetes",
+      "patients": 317,
+      "total_cost": 2700477.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Chronic sinusitis (disorder)",
+      "patients": 233,
+      "total_cost": 2013036.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Diabetes",
+      "patients": 76,
+      "total_cost": 1754793.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Hypertriglyceridemia (disorder)",
+      "patients": 74,
+      "total_cost": 1737615.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Metabolic syndrome X (disorder)",
+      "patients": 74,
+      "total_cost": 1737615.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Hyperlipidemia",
+      "patients": 136,
+      "total_cost": 1722658.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Miscarriage in first trimester",
+      "patients": 221,
+      "total_cost": 1523287.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Diabetic renal disease (disorder)",
+      "patients": 37,
+      "total_cost": 1490015.0,
+      "avg_cost": 129.0
+    },
+    {
+      "condition": "Normal pregnancy",
+      "patients": 205,
+      "total_cost": 1398208.0,
+      "avg_cost": 129.0
+    }
+  ],
+  "icd10": [
+    {
+      "chapter": "1",
+      "patients": 1014,
+      "conditions": 23
+    },
+    {
+      "chapter": "4",
+      "patients": 959,
+      "conditions": 25
+    },
+    {
+      "chapter": "2",
+      "patients": 609,
+      "conditions": 26
+    },
+    {
+      "chapter": "5",
+      "patients": 471,
+      "conditions": 6
+    },
+    {
+      "chapter": "7",
+      "patients": 413,
+      "conditions": 8
+    },
+    {
+      "chapter": "6",
+      "patients": 368,
+      "conditions": 9
+    },
+    {
+      "chapter": "3",
+      "patients": 335,
+      "conditions": 19
+    },
+    {
+      "chapter": "8",
+      "patients": 190,
+      "conditions": 6
+    },
+    {
+      "chapter": "9",
+      "patients": 48,
+      "conditions": 7
+    }
+  ],
+  "drug_class": [
+    {
+      "class": "Hydrochlorothiazide",
+      "fills": 5552,
+      "revenue": 13905948.0
+    },
+    {
+      "class": "Simvastatin",
+      "fills": 3221,
+      "revenue": 13540287.0
+    },
+    {
+      "class": "Atenolol",
+      "fills": 3347,
+      "revenue": 8586612.0
+    },
+    {
+      "class": "NDA020503",
+      "fills": 2072,
+      "revenue": 8363802.0
+    },
+    {
+      "class": "NDA020800",
+      "fills": 107,
+      "revenue": 7109760.0
+    },
+    {
+      "class": "amLODIPine",
+      "fills": 2867,
+      "revenue": 6892898.0
+    },
+    {
+      "class": "Vitamin",
+      "fills": 53,
+      "revenue": 5103011.0
+    },
+    {
+      "class": "insulin",
+      "fills": 3880,
+      "revenue": 3598078.0
+    },
+    {
+      "class": "PACLitaxel",
+      "fills": 541,
+      "revenue": 3594540.0
+    },
+    {
+      "class": "ferrous",
+      "fills": 43,
+      "revenue": 3452773.0
+    },
+    {
+      "class": "10",
+      "fills": 100,
+      "revenue": 2865941.0
+    },
+    {
+      "class": "24",
+      "fills": 2959,
+      "revenue": 2857317.0
+    },
+    {
+      "class": "Acetaminophen",
+      "fills": 1147,
+      "revenue": 2745716.0
+    },
+    {
+      "class": "1",
+      "fills": 3559,
+      "revenue": 2411369.0
+    },
+    {
+      "class": "Nitroglycerin",
+      "fills": 1264,
+      "revenue": 1326792.0
+    }
+  ],
+  "adherence": [
+    {
+      "drug": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "fills": 126,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "Cisplatin 50 MG Injection",
+      "fills": 572,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "Ibuprofen 200 MG Oral Tablet",
+      "fills": 188,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+      "fills": 3388,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "Ibuprofen 100 MG Oral Tablet",
+      "fills": 123,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "PACLitaxel 100 MG Injection",
+      "fills": 541,
+      "adherence_pct": 100.0
+    },
+    {
+      "drug": "Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]",
+      "fills": 232,
+      "adherence_pct": 99.6
+    },
+    {
+      "drug": "Acetaminophen 325 MG Oral Tablet",
+      "fills": 644,
+      "adherence_pct": 99.4
+    },
+    {
+      "drug": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "fills": 271,
+      "adherence_pct": 99.3
+    },
+    {
+      "drug": "Acetaminophen 160 MG Chewable Tablet",
+      "fills": 148,
+      "adherence_pct": 99.3
+    }
   ]
 }
