@@ -75,6 +75,22 @@ tr.clickable:hover { background: #f8f8f8; }
 .bar-fill.orange { background: linear-gradient(90deg, #c47900 0%, #f0a93b 100%); }
 .bar-fill.purple { background: linear-gradient(90deg, #5c2d91 0%, #9866c5 100%); }
 .bar-value { font-size: 10px; min-width: 55px; text-align: right; color: #605e5c; }
+
+/* Filter dropdowns */
+.filter-dd { position: relative; flex-shrink: 0; }
+.filter-dd-btn { padding: 4px 10px; border-radius: 14px; font-size: 11px; cursor: pointer; border: 1px solid #c8c6c4; background: white; color: #252423; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.filter-dd-btn:hover { background: #f3f2f1; }
+.filter-dd-btn.has-active { background: #deecf9; color: #0078d4; border-color: #0078d4; font-weight: 600; }
+.filter-dd-btn .count { background: #0078d4; color: white; border-radius: 8px; padding: 0 5px; font-size: 9px; }
+.filter-dd-btn.has-active .count { background: white; color: #0078d4; }
+.filter-dd-menu { position: absolute; top: 100%; left: 0; margin-top: 4px; background: white; border: 1px solid #c8c6c4; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); min-width: 180px; max-height: 280px; overflow-y: auto; z-index: 200; display: none; }
+.filter-dd-menu.show { display: block; }
+.filter-dd-menu .dd-search { width: 100%; padding: 4px 8px; border: 0; border-bottom: 1px solid #edebe9; font-size: 11px; outline: none; box-sizing: border-box; }
+.filter-dd-menu .dd-item { display: flex; align-items: center; gap: 6px; padding: 5px 8px; font-size: 11px; cursor: pointer; }
+.filter-dd-menu .dd-item:hover { background: #f3f2f1; }
+.filter-dd-menu .dd-item input { margin: 0; cursor: pointer; }
+.filter-dd-menu .dd-actions { display: flex; gap: 4px; padding: 4px; border-bottom: 1px solid #edebe9; background: #fafafa; }
+.filter-dd-menu .dd-actions button { font-size: 10px; padding: 3px 8px; border: 1px solid #c8c6c4; background: white; border-radius: 3px; cursor: pointer; }
 .chart { height: 180px; display: flex; align-items: flex-end; gap: 1px; padding: 8px 0; border-bottom: 1px solid #edebe9; }
 .chart .bar-col { flex: 1; background: linear-gradient(180deg, #0078d4 0%, #50a3e6 100%); border-radius: 2px 2px 0 0; min-height: 2px; cursor: pointer; position: relative; transition: all 0.15s; }
 .chart .bar-col:hover { background: linear-gradient(180deg, #005a9e 0%, #0078d4 100%); transform: scaleY(1.02); }
@@ -130,8 +146,11 @@ tr.clickable:hover { background: #f8f8f8; }
     <span class="filter-label" id="filterCount" style="margin-left:auto">No filters · showing all data</span>
   </div>
   <div class="filter-row" id="filterChipsRow">
-    <span class="filter-label">Filters:</span>
+    <span class="filter-label">Active:</span>
     <span id="filterChips"></span>
+  </div>
+  <div class="filter-row" id="filterDropdownsRow" style="gap:6px;flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px">
+    <!-- Filter dropdowns get injected here by JS -->
   </div>
 </div>
 
@@ -338,7 +357,134 @@ async function loadAll() {
   }
 }
 
-// ==================== FILTER ENGINE ====================
+// ==================== FILTER DROPDOWNS ====================
+// Build a proper multi-select dropdown for each filter dimension
+const FILTER_CONFIG = [
+  { dim: 'payers',             label: 'Payer',          icon: '💰', maxVisible: 8 },
+  { dim: 'age_bands',          label: 'Age Band',       icon: '👥', maxVisible: 6 },
+  { dim: 'encounter_classes',  label: 'Encounter Class',icon: '🏥', maxVisible: 6 },
+  { dim: 'genders',            label: 'Gender',         icon: '⚧',  maxVisible: 2 },
+  { dim: 'cities',             label: 'City',           icon: '🌆', maxVisible: 10, searchable: true },
+  { dim: 'years',              label: 'Year',           icon: '📅', maxVisible: 12 },
+  { dim: 'specialties',        label: 'Specialty',      icon: '👨‍⚕️', maxVisible: 10, searchable: true },
+];
+
+function buildFilterDropdowns() {
+  const row = document.getElementById('filterDropdownsRow');
+  if (!row) return;
+  row.innerHTML = '';
+  for (const cfg of FILTER_CONFIG) {
+    const values = RAW.filters[cfg.dim] || [];
+    if (values.length === 0) continue;  // skip dims with no data
+    const dd = document.createElement('div');
+    dd.className = 'filter-dd';
+    const btn = document.createElement('button');
+    btn.className = 'filter-dd-btn';
+    btn.id = `dd-btn-${cfg.dim}`;
+    btn.innerHTML = `<span>${cfg.icon}</span> <span>${cfg.label}</span> <span class="count" id="dd-count-${cfg.dim}" style="display:none">0</span> <span>▾</span>`;
+    const menu = document.createElement('div');
+    menu.className = 'filter-dd-menu';
+    menu.id = `dd-menu-${cfg.dim}`;
+    if (cfg.searchable && values.length > 8) {
+      const s = document.createElement('input');
+      s.className = 'dd-search';
+      s.placeholder = `Search ${cfg.label.toLowerCase()}…`;
+      s.addEventListener('input', (e) => {
+        const q = e.target.value.toLowerCase();
+        menu.querySelectorAll('.dd-item').forEach(item => {
+          item.style.display = item.dataset.value.toLowerCase().includes(q) ? '' : 'none';
+        });
+      });
+      menu.appendChild(s);
+    }
+    const actions = document.createElement('div');
+    actions.className = 'dd-actions';
+    actions.innerHTML = `<button onclick="event.stopPropagation(); ddSelectAll('${cfg.dim}')">All</button><button onclick="event.stopPropagation(); ddSelectNone('${cfg.dim}')">None</button>`;
+    menu.appendChild(actions);
+    for (const v of values) {
+      const item = document.createElement('label');
+      item.className = 'dd-item';
+      item.dataset.value = v;
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.value = v;
+      cb.id = `dd-cb-${cfg.dim}-${hashStr(v)}`;
+      cb.addEventListener('change', () => {
+        if (cb.checked) state.filters[cfg.dim].add(v);
+        else state.filters[cfg.dim].delete(v);
+        applyFilters();
+      });
+      item.appendChild(cb);
+      const label = document.createElement('span');
+      label.textContent = v;
+      label.style.flex = '1';
+      item.appendChild(label);
+      menu.appendChild(item);
+    }
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // close other menus
+      document.querySelectorAll('.filter-dd-menu.show').forEach(m => { if (m !== menu) m.classList.remove('show'); });
+      menu.classList.toggle('show');
+    });
+    dd.appendChild(btn);
+    dd.appendChild(menu);
+    row.appendChild(dd);
+  }
+  // close menus on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.filter-dd')) {
+      document.querySelectorAll('.filter-dd-menu.show').forEach(m => m.classList.remove('show'));
+    }
+  });
+}
+
+function hashStr(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h).toString(36);
+}
+
+function ddSelectAll(dim) {
+  const values = RAW.filters[dim] || [];
+  for (const v of values) state.filters[dim].add(v);
+  // uncheck/ check checkboxes
+  const menu = document.getElementById(`dd-menu-${dim}`);
+  if (menu) menu.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = true);
+  applyFilters();
+}
+function ddSelectNone(dim) {
+  state.filters[dim].clear();
+  const menu = document.getElementById(`dd-menu-${dim}`);
+  if (menu) menu.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+  applyFilters();
+}
+
+function syncDropdownCheckboxes() {
+  for (const cfg of FILTER_CONFIG) {
+    const menu = document.getElementById(`dd-menu-${cfg.dim}`);
+    if (!menu) continue;
+    menu.querySelectorAll('input[type=checkbox]').forEach(cb => {
+      cb.checked = state.filters[cfg.dim].has(cb.value);
+    });
+    // update button styling + count
+    const btn = document.getElementById(`dd-btn-${cfg.dim}`);
+    const cnt = document.getElementById(`dd-count-${cfg.dim}`);
+    if (btn && cnt) {
+      const n = state.filters[cfg.dim].size;
+      if (n > 0) {
+        btn.classList.add('has-active');
+        cnt.style.display = '';
+        cnt.textContent = n;
+      } else {
+        btn.classList.remove('has-active');
+        cnt.style.display = 'none';
+      }
+    }
+  }
+}
+
+
 function rowMatchesFilters(row, type) {
   const f = state.filters;
   // Drug/condition set filter overrides year/etc
@@ -565,6 +711,7 @@ function applyFilters() {
   renderICDBars(icdList);
 
   updateFilterChips();
+  syncDropdownCheckboxes();
   updateURL();
 }
 
@@ -776,6 +923,7 @@ function toggleFilter(dim, value) {
   if (s.has(value)) s.delete(value);
   else s.add(value);
   applyFilters();
+  syncDropdownCheckboxes();
 }
 function addDrugFilter(name) {
   state.filters.drugs.clear();
@@ -991,6 +1139,8 @@ document.getElementById('copyLinkBtn').addEventListener('click', () => {
 
 // ==================== INIT ====================
 function initDashboard() {
+  // Build filter dropdowns from RAW.filters
+  buildFilterDropdowns();
   // Pre-populate filter chip row label
   updateFilterChips();
 }
