@@ -331,7 +331,11 @@ async function loadAll() {
   document.getElementById('loading').style.display = 'none';
   initDashboard();
   restoreFromURL();
-  applyFilters();
+  try {
+    applyFilters();
+  } catch (e) {
+    throw new Error(`applyFilters() failed: ${e.message} (meds=${meds ? meds.length : 'undef'}, encs=${encs ? encs.length : 'undef'}, conds=${conds ? conds.length : 'undef'})`);
+  }
 }
 
 // ==================== FILTER ENGINE ====================
