@@ -1,0 +1,6207 @@
+{
+  "kpis": {
+    "total_patients": 1171,
+    "total_encounters": 53346,
+    "total_prescriptions": 42989,
+    "total_revenue": 100106420.0,
+    "unique_drugs": 134,
+    "total_providers": 5855,
+    "total_orgs": 1119,
+    "total_payers": 10
+  },
+  "top_drugs": [
+    {
+      "drug": "Simvastatin 10 MG Oral Tablet",
+      "fills": 2273,
+      "revenue": 13390825.0
+    },
+    {
+      "drug": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "fills": 3954,
+      "revenue": 9682467.0
+    },
+    {
+      "drug": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+      "fills": 3347,
+      "revenue": 8586612.0
+    },
+    {
+      "drug": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "fills": 2072,
+      "revenue": 8363802.0
+    },
+    {
+      "drug": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+      "fills": 107,
+      "revenue": 7109760.0
+    },
+    {
+      "drug": "amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet",
+      "fills": 2867,
+      "revenue": 6892898.0
+    },
+    {
+      "drug": "Vitamin B 12 5 MG/ML Injectable Solution",
+      "fills": 53,
+      "revenue": 5103011.0
+    },
+    {
+      "drug": "Hydrochlorothiazide 12.5 MG",
+      "fills": 1598,
+      "revenue": 4223481.0
+    },
+    {
+      "drug": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "fills": 3880,
+      "revenue": 3598078.0
+    },
+    {
+      "drug": "PACLitaxel 100 MG Injection",
+      "fills": 541,
+      "revenue": 3594540.0
+    }
+  ],
+  "payer_mix": [
+    {
+      "payer": "NO_INSURANCE",
+      "patients": 584,
+      "fills": 8495,
+      "cost": 17140001.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "Medicare",
+      "patients": 174,
+      "fills": 12641,
+      "cost": 15083880.0,
+      "cov_pct": 22.4
+    },
+    {
+      "payer": "Blue Cross Blue Shield",
+      "patients": 221,
+      "fills": 4882,
+      "cost": 14059847.0,
+      "cov_pct": 11.3
+    },
+    {
+      "payer": "Medicaid",
+      "patients": 340,
+      "fills": 4459,
+      "cost": 11880809.0,
+      "cov_pct": 10.7
+    },
+    {
+      "payer": "Humana",
+      "patients": 186,
+      "fills": 2976,
+      "cost": 10719958.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "UnitedHealthcare",
+      "patients": 215,
+      "fills": 3056,
+      "cost": 10497656.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "Cigna Health",
+      "patients": 182,
+      "fills": 2229,
+      "cost": 8909446.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "Aetna",
+      "patients": 174,
+      "fills": 1968,
+      "cost": 6480826.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "Anthem",
+      "patients": 102,
+      "fills": 1713,
+      "cost": 4555230.0,
+      "cov_pct": 0.0
+    },
+    {
+      "payer": "Dual Eligible",
+      "patients": 22,
+      "fills": 570,
+      "cost": 778767.0,
+      "cov_pct": 10.2
+    }
+  ],
+  "specialties": [
+    {
+      "specialty": "GENERAL PRACTICE",
+      "encounters": 53346,
+      "cost": 6868313.0
+    }
+  ],
+  "states": [
+    {
+      "state": "Massachusetts",
+      "patients": 1171
+    }
+  ],
+  "age_bands": [
+    {
+      "age_band": "0-17",
+      "patients": 129
+    },
+    {
+      "age_band": "18-34",
+      "patients": 252
+    },
+    {
+      "age_band": "35-49",
+      "patients": 201
+    },
+    {
+      "age_band": "50-64",
+      "patients": 227
+    },
+    {
+      "age_band": "65-79",
+      "patients": 187
+    },
+    {
+      "age_band": "80+",
+      "patients": 175
+    }
+  ],
+  "trend": [
+    {
+      "year": 1913,
+      "month": 6,
+      "fills": 1,
+      "revenue": 6.0
+    },
+    {
+      "year": 1918,
+      "month": 9,
+      "fills": 2,
+      "revenue": 5227.0
+    },
+    {
+      "year": 1919,
+      "month": 8,
+      "fills": 2,
+      "revenue": 3919.0
+    },
+    {
+      "year": 1920,
+      "month": 8,
+      "fills": 2,
+      "revenue": 1187.0
+    },
+    {
+      "year": 1921,
+      "month": 8,
+      "fills": 2,
+      "revenue": 6402.0
+    },
+    {
+      "year": 1922,
+      "month": 9,
+      "fills": 2,
+      "revenue": 2969.0
+    },
+    {
+      "year": 1923,
+      "month": 9,
+      "fills": 2,
+      "revenue": 1626.0
+    },
+    {
+      "year": 1924,
+      "month": 5,
+      "fills": 1,
+      "revenue": 6304.0
+    },
+    {
+      "year": 1924,
+      "month": 9,
+      "fills": 2,
+      "revenue": 12304.0
+    },
+    {
+      "year": 1925,
+      "month": 6,
+      "fills": 1,
+      "revenue": 245.0
+    },
+    {
+      "year": 1925,
+      "month": 9,
+      "fills": 2,
+      "revenue": 2840.0
+    },
+    {
+      "year": 1926,
+      "month": 1,
+      "fills": 2,
+      "revenue": 715.0
+    },
+    {
+      "year": 1926,
+      "month": 6,
+      "fills": 1,
+      "revenue": 368.0
+    },
+    {
+      "year": 1926,
+      "month": 9,
+      "fills": 2,
+      "revenue": 1545.0
+    },
+    {
+      "year": 1926,
+      "month": 11,
+      "fills": 1,
+      "revenue": 17374.0
+    },
+    {
+      "year": 1927,
+      "month": 10,
+      "fills": 2,
+      "revenue": 5475.0
+    },
+    {
+      "year": 1928,
+      "month": 10,
+      "fills": 2,
+      "revenue": 10632.0
+    },
+    {
+      "year": 1929,
+      "month": 10,
+      "fills": 2,
+      "revenue": 6569.0
+    },
+    {
+      "year": 1930,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1930,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1930,
+      "month": 7,
+      "fills": 1,
+      "revenue": 487217.0
+    },
+    {
+      "year": 1930,
+      "month": 10,
+      "fills": 2,
+      "revenue": 2503.0
+    },
+    {
+      "year": 1931,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1931,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1931,
+      "month": 10,
+      "fills": 2,
+      "revenue": 11806.0
+    },
+    {
+      "year": 1932,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1932,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1932,
+      "month": 10,
+      "fills": 5,
+      "revenue": 14766.0
+    },
+    {
+      "year": 1932,
+      "month": 11,
+      "fills": 2,
+      "revenue": 5797.0
+    },
+    {
+      "year": 1933,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1933,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1933,
+      "month": 11,
+      "fills": 7,
+      "revenue": 21832.0
+    },
+    {
+      "year": 1933,
+      "month": 12,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1934,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1934,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1934,
+      "month": 11,
+      "fills": 7,
+      "revenue": 17803.0
+    },
+    {
+      "year": 1934,
+      "month": 12,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1935,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1935,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1935,
+      "month": 7,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1935,
+      "month": 11,
+      "fills": 7,
+      "revenue": 26796.0
+    },
+    {
+      "year": 1935,
+      "month": 12,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1936,
+      "month": 2,
+      "fills": 1,
+      "revenue": 527.0
+    },
+    {
+      "year": 1936,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1936,
+      "month": 5,
+      "fills": 2,
+      "revenue": 5270.0
+    },
+    {
+      "year": 1936,
+      "month": 6,
+      "fills": 1,
+      "revenue": 1317.0
+    },
+    {
+      "year": 1936,
+      "month": 7,
+      "fills": 3,
+      "revenue": 8432.0
+    },
+    {
+      "year": 1936,
+      "month": 11,
+      "fills": 8,
+      "revenue": 23945.0
+    },
+    {
+      "year": 1937,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1937,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1937,
+      "month": 3,
+      "fills": 2,
+      "revenue": 3689.0
+    },
+    {
+      "year": 1937,
+      "month": 4,
+      "fills": 2,
+      "revenue": 216589.0
+    },
+    {
+      "year": 1937,
+      "month": 5,
+      "fills": 1,
+      "revenue": 527.0
+    },
+    {
+      "year": 1937,
+      "month": 7,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1937,
+      "month": 11,
+      "fills": 7,
+      "revenue": 20484.0
+    },
+    {
+      "year": 1938,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1938,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1938,
+      "month": 4,
+      "fills": 2,
+      "revenue": 6324.0
+    },
+    {
+      "year": 1938,
+      "month": 6,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1938,
+      "month": 7,
+      "fills": 3,
+      "revenue": 7114.0
+    },
+    {
+      "year": 1938,
+      "month": 11,
+      "fills": 1,
+      "revenue": 2108.0
+    },
+    {
+      "year": 1938,
+      "month": 12,
+      "fills": 7,
+      "revenue": 16477.0
+    },
+    {
+      "year": 1939,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1939,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1939,
+      "month": 4,
+      "fills": 4,
+      "revenue": 10789.0
+    },
+    {
+      "year": 1939,
+      "month": 7,
+      "fills": 5,
+      "revenue": 12911.0
+    },
+    {
+      "year": 1939,
+      "month": 10,
+      "fills": 1,
+      "revenue": 263.0
+    },
+    {
+      "year": 1939,
+      "month": 12,
+      "fills": 9,
+      "revenue": 31227.0
+    },
+    {
+      "year": 1940,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1940,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1940,
+      "month": 4,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1940,
+      "month": 5,
+      "fills": 5,
+      "revenue": 11911.0
+    },
+    {
+      "year": 1940,
+      "month": 7,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1940,
+      "month": 10,
+      "fills": 2,
+      "revenue": 4760.0
+    },
+    {
+      "year": 1940,
+      "month": 11,
+      "fills": 4,
+      "revenue": 3191.0
+    },
+    {
+      "year": 1940,
+      "month": 12,
+      "fills": 7,
+      "revenue": 20738.0
+    },
+    {
+      "year": 1941,
+      "month": 1,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1941,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1941,
+      "month": 4,
+      "fills": 5,
+      "revenue": 15690.0
+    },
+    {
+      "year": 1941,
+      "month": 5,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1941,
+      "month": 7,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1941,
+      "month": 8,
+      "fills": 4,
+      "revenue": 12384.0
+    },
+    {
+      "year": 1941,
+      "month": 10,
+      "fills": 2,
+      "revenue": 4743.0
+    },
+    {
+      "year": 1941,
+      "month": 11,
+      "fills": 3,
+      "revenue": 1297895.0
+    },
+    {
+      "year": 1941,
+      "month": 12,
+      "fills": 7,
+      "revenue": 19210.0
+    },
+    {
+      "year": 1942,
+      "month": 2,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1942,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1942,
+      "month": 4,
+      "fills": 5,
+      "revenue": 20209.0
+    },
+    {
+      "year": 1942,
+      "month": 5,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1942,
+      "month": 7,
+      "fills": 6,
+      "revenue": 184970.0
+    },
+    {
+      "year": 1942,
+      "month": 8,
+      "fills": 3,
+      "revenue": 8695.0
+    },
+    {
+      "year": 1942,
+      "month": 10,
+      "fills": 2,
+      "revenue": 1422.0
+    },
+    {
+      "year": 1942,
+      "month": 11,
+      "fills": 2,
+      "revenue": 6787.0
+    },
+    {
+      "year": 1942,
+      "month": 12,
+      "fills": 7,
+      "revenue": 22870.0
+    },
+    {
+      "year": 1943,
+      "month": 1,
+      "fills": 1,
+      "revenue": 549068.0
+    },
+    {
+      "year": 1943,
+      "month": 2,
+      "fills": 4,
+      "revenue": 7004.0
+    },
+    {
+      "year": 1943,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1943,
+      "month": 4,
+      "fills": 4,
+      "revenue": 16509.0
+    },
+    {
+      "year": 1943,
+      "month": 5,
+      "fills": 3,
+      "revenue": 7114.0
+    },
+    {
+      "year": 1943,
+      "month": 7,
+      "fills": 6,
+      "revenue": 18444.0
+    },
+    {
+      "year": 1943,
+      "month": 8,
+      "fills": 5,
+      "revenue": 9971.0
+    },
+    {
+      "year": 1943,
+      "month": 9,
+      "fills": 1,
+      "revenue": 2371.0
+    },
+    {
+      "year": 1943,
+      "month": 10,
+      "fills": 1,
+      "revenue": 1778.0
+    },
+    {
+      "year": 1943,
+      "month": 11,
+      "fills": 2,
+      "revenue": 5324.0
+    },
+    {
+      "year": 1944,
+      "month": 1,
+      "fills": 7,
+      "revenue": 17925.0
+    },
+    {
+      "year": 1944,
+      "month": 2,
+      "fills": 2,
+      "revenue": 6490.0
+    },
+    {
+      "year": 1944,
+      "month": 4,
+      "fills": 5,
+      "revenue": 6156.0
+    },
+    {
+      "year": 1944,
+      "month": 5,
+      "fills": 6,
+      "revenue": 13962.0
+    },
+    {
+      "year": 1944,
+      "month": 6,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1944,
+      "month": 7,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1944,
+      "month": 8,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1944,
+      "month": 10,
+      "fills": 3,
+      "revenue": 2630.0
+    },
+    {
+      "year": 1944,
+      "month": 12,
+      "fills": 2,
+      "revenue": 5525.0
+    },
+    {
+      "year": 1945,
+      "month": 1,
+      "fills": 7,
+      "revenue": 16946.0
+    },
+    {
+      "year": 1945,
+      "month": 2,
+      "fills": 2,
+      "revenue": 10779.0
+    },
+    {
+      "year": 1945,
+      "month": 4,
+      "fills": 6,
+      "revenue": 8904.0
+    },
+    {
+      "year": 1945,
+      "month": 5,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1945,
+      "month": 6,
+      "fills": 5,
+      "revenue": 15809.0
+    },
+    {
+      "year": 1945,
+      "month": 7,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1945,
+      "month": 8,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1945,
+      "month": 10,
+      "fills": 3,
+      "revenue": 1140.0
+    },
+    {
+      "year": 1945,
+      "month": 12,
+      "fills": 2,
+      "revenue": 920.0
+    },
+    {
+      "year": 1946,
+      "month": 1,
+      "fills": 7,
+      "revenue": 16845.0
+    },
+    {
+      "year": 1946,
+      "month": 2,
+      "fills": 2,
+      "revenue": 6557.0
+    },
+    {
+      "year": 1946,
+      "month": 4,
+      "fills": 6,
+      "revenue": 13568.0
+    },
+    {
+      "year": 1946,
+      "month": 5,
+      "fills": 4,
+      "revenue": 11546.0
+    },
+    {
+      "year": 1946,
+      "month": 6,
+      "fills": 4,
+      "revenue": 6734.0
+    },
+    {
+      "year": 1946,
+      "month": 7,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1946,
+      "month": 8,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1946,
+      "month": 9,
+      "fills": 4,
+      "revenue": 10013.0
+    },
+    {
+      "year": 1946,
+      "month": 12,
+      "fills": 2,
+      "revenue": 8628.0
+    },
+    {
+      "year": 1947,
+      "month": 1,
+      "fills": 7,
+      "revenue": 19156.0
+    },
+    {
+      "year": 1947,
+      "month": 2,
+      "fills": 2,
+      "revenue": 4100.0
+    },
+    {
+      "year": 1947,
+      "month": 3,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1947,
+      "month": 4,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1947,
+      "month": 5,
+      "fills": 9,
+      "revenue": 25225.0
+    },
+    {
+      "year": 1947,
+      "month": 6,
+      "fills": 2,
+      "revenue": 6324.0
+    },
+    {
+      "year": 1947,
+      "month": 7,
+      "fills": 4,
+      "revenue": 9749.0
+    },
+    {
+      "year": 1947,
+      "month": 8,
+      "fills": 5,
+      "revenue": 17011.0
+    },
+    {
+      "year": 1947,
+      "month": 9,
+      "fills": 4,
+      "revenue": 10761.0
+    },
+    {
+      "year": 1947,
+      "month": 12,
+      "fills": 2,
+      "revenue": 3231.0
+    },
+    {
+      "year": 1948,
+      "month": 1,
+      "fills": 7,
+      "revenue": 20674.0
+    },
+    {
+      "year": 1948,
+      "month": 3,
+      "fills": 2,
+      "revenue": 3918.0
+    },
+    {
+      "year": 1948,
+      "month": 4,
+      "fills": 2,
+      "revenue": 3808.0
+    },
+    {
+      "year": 1948,
+      "month": 5,
+      "fills": 10,
+      "revenue": 19550.0
+    },
+    {
+      "year": 1948,
+      "month": 6,
+      "fills": 2,
+      "revenue": 3611.0
+    },
+    {
+      "year": 1948,
+      "month": 7,
+      "fills": 5,
+      "revenue": 14396.0
+    },
+    {
+      "year": 1948,
+      "month": 8,
+      "fills": 8,
+      "revenue": 246047.0
+    },
+    {
+      "year": 1948,
+      "month": 9,
+      "fills": 4,
+      "revenue": 12599.0
+    },
+    {
+      "year": 1948,
+      "month": 10,
+      "fills": 2,
+      "revenue": 3966.0
+    },
+    {
+      "year": 1948,
+      "month": 11,
+      "fills": 1,
+      "revenue": 159938.0
+    },
+    {
+      "year": 1948,
+      "month": 12,
+      "fills": 2,
+      "revenue": 5095.0
+    },
+    {
+      "year": 1949,
+      "month": 1,
+      "fills": 9,
+      "revenue": 246413.0
+    },
+    {
+      "year": 1949,
+      "month": 3,
+      "fills": 3,
+      "revenue": 3952.0
+    },
+    {
+      "year": 1949,
+      "month": 4,
+      "fills": 2,
+      "revenue": 5757.0
+    },
+    {
+      "year": 1949,
+      "month": 5,
+      "fills": 9,
+      "revenue": 14394.0
+    },
+    {
+      "year": 1949,
+      "month": 6,
+      "fills": 4,
+      "revenue": 9472.0
+    },
+    {
+      "year": 1949,
+      "month": 7,
+      "fills": 6,
+      "revenue": 17681.0
+    },
+    {
+      "year": 1949,
+      "month": 8,
+      "fills": 5,
+      "revenue": 12911.0
+    },
+    {
+      "year": 1949,
+      "month": 9,
+      "fills": 6,
+      "revenue": 12946.0
+    },
+    {
+      "year": 1949,
+      "month": 11,
+      "fills": 3,
+      "revenue": 5754.0
+    },
+    {
+      "year": 1949,
+      "month": 12,
+      "fills": 2,
+      "revenue": 4203.0
+    },
+    {
+      "year": 1950,
+      "month": 1,
+      "fills": 2,
+      "revenue": 4145.0
+    },
+    {
+      "year": 1950,
+      "month": 2,
+      "fills": 7,
+      "revenue": 20064.0
+    },
+    {
+      "year": 1950,
+      "month": 3,
+      "fills": 2,
+      "revenue": 3429.0
+    },
+    {
+      "year": 1950,
+      "month": 4,
+      "fills": 3,
+      "revenue": 3361.0
+    },
+    {
+      "year": 1950,
+      "month": 5,
+      "fills": 8,
+      "revenue": 18261.0
+    },
+    {
+      "year": 1950,
+      "month": 6,
+      "fills": 3,
+      "revenue": 9486.0
+    },
+    {
+      "year": 1950,
+      "month": 7,
+      "fills": 5,
+      "revenue": 15809.0
+    },
+    {
+      "year": 1950,
+      "month": 8,
+      "fills": 5,
+      "revenue": 11702.0
+    },
+    {
+      "year": 1950,
+      "month": 9,
+      "fills": 6,
+      "revenue": 13075.0
+    },
+    {
+      "year": 1950,
+      "month": 10,
+      "fills": 9,
+      "revenue": 18759.0
+    },
+    {
+      "year": 1950,
+      "month": 11,
+      "fills": 2,
+      "revenue": 1145.0
+    },
+    {
+      "year": 1950,
+      "month": 12,
+      "fills": 3,
+      "revenue": 960.0
+    },
+    {
+      "year": 1951,
+      "month": 1,
+      "fills": 5,
+      "revenue": 9131.0
+    },
+    {
+      "year": 1951,
+      "month": 2,
+      "fills": 9,
+      "revenue": 28860.0
+    },
+    {
+      "year": 1951,
+      "month": 3,
+      "fills": 6,
+      "revenue": 6916.0
+    },
+    {
+      "year": 1951,
+      "month": 4,
+      "fills": 2,
+      "revenue": 5223.0
+    },
+    {
+      "year": 1951,
+      "month": 5,
+      "fills": 6,
+      "revenue": 13422.0
+    },
+    {
+      "year": 1951,
+      "month": 6,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1951,
+      "month": 7,
+      "fills": 4,
+      "revenue": 14663.0
+    },
+    {
+      "year": 1951,
+      "month": 8,
+      "fills": 6,
+      "revenue": 11514.0
+    },
+    {
+      "year": 1951,
+      "month": 9,
+      "fills": 8,
+      "revenue": 14023.0
+    },
+    {
+      "year": 1951,
+      "month": 10,
+      "fills": 8,
+      "revenue": 16233.0
+    },
+    {
+      "year": 1951,
+      "month": 11,
+      "fills": 3,
+      "revenue": 8318.0
+    },
+    {
+      "year": 1952,
+      "month": 1,
+      "fills": 2,
+      "revenue": 1846.0
+    },
+    {
+      "year": 1952,
+      "month": 2,
+      "fills": 10,
+      "revenue": 19976.0
+    },
+    {
+      "year": 1952,
+      "month": 3,
+      "fills": 4,
+      "revenue": 5432.0
+    },
+    {
+      "year": 1952,
+      "month": 4,
+      "fills": 1,
+      "revenue": 2061.0
+    },
+    {
+      "year": 1952,
+      "month": 5,
+      "fills": 2,
+      "revenue": 9016.0
+    },
+    {
+      "year": 1952,
+      "month": 6,
+      "fills": 11,
+      "revenue": 22186.0
+    },
+    {
+      "year": 1952,
+      "month": 7,
+      "fills": 5,
+      "revenue": 14557.0
+    },
+    {
+      "year": 1952,
+      "month": 8,
+      "fills": 5,
+      "revenue": 15121.0
+    },
+    {
+      "year": 1952,
+      "month": 9,
+      "fills": 7,
+      "revenue": 14136.0
+    },
+    {
+      "year": 1952,
+      "month": 10,
+      "fills": 9,
+      "revenue": 12072.0
+    },
+    {
+      "year": 1952,
+      "month": 11,
+      "fills": 3,
+      "revenue": 1191.0
+    },
+    {
+      "year": 1952,
+      "month": 12,
+      "fills": 6,
+      "revenue": 10078.0
+    },
+    {
+      "year": 1953,
+      "month": 1,
+      "fills": 3,
+      "revenue": 4083.0
+    },
+    {
+      "year": 1953,
+      "month": 2,
+      "fills": 11,
+      "revenue": 25760.0
+    },
+    {
+      "year": 1953,
+      "month": 3,
+      "fills": 6,
+      "revenue": 11797.0
+    },
+    {
+      "year": 1953,
+      "month": 4,
+      "fills": 4,
+      "revenue": 8227.0
+    },
+    {
+      "year": 1953,
+      "month": 5,
+      "fills": 4,
+      "revenue": 108410.0
+    },
+    {
+      "year": 1953,
+      "month": 6,
+      "fills": 11,
+      "revenue": 35471.0
+    },
+    {
+      "year": 1953,
+      "month": 7,
+      "fills": 3,
+      "revenue": 4232.0
+    },
+    {
+      "year": 1953,
+      "month": 8,
+      "fills": 5,
+      "revenue": 225020.0
+    },
+    {
+      "year": 1953,
+      "month": 9,
+      "fills": 6,
+      "revenue": 11719.0
+    },
+    {
+      "year": 1953,
+      "month": 10,
+      "fills": 8,
+      "revenue": 10932.0
+    },
+    {
+      "year": 1953,
+      "month": 11,
+      "fills": 9,
+      "revenue": 6989.0
+    },
+    {
+      "year": 1953,
+      "month": 12,
+      "fills": 4,
+      "revenue": 217947.0
+    },
+    {
+      "year": 1954,
+      "month": 1,
+      "fills": 4,
+      "revenue": 10393.0
+    },
+    {
+      "year": 1954,
+      "month": 2,
+      "fills": 10,
+      "revenue": 21096.0
+    },
+    {
+      "year": 1954,
+      "month": 3,
+      "fills": 2,
+      "revenue": 780.0
+    },
+    {
+      "year": 1954,
+      "month": 4,
+      "fills": 6,
+      "revenue": 221984.0
+    },
+    {
+      "year": 1954,
+      "month": 5,
+      "fills": 7,
+      "revenue": 9502.0
+    },
+    {
+      "year": 1954,
+      "month": 6,
+      "fills": 12,
+      "revenue": 19320.0
+    },
+    {
+      "year": 1954,
+      "month": 7,
+      "fills": 4,
+      "revenue": 6904.0
+    },
+    {
+      "year": 1954,
+      "month": 8,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1954,
+      "month": 9,
+      "fills": 7,
+      "revenue": 154510.0
+    },
+    {
+      "year": 1954,
+      "month": 10,
+      "fills": 10,
+      "revenue": 159205.0
+    },
+    {
+      "year": 1954,
+      "month": 11,
+      "fills": 8,
+      "revenue": 231541.0
+    },
+    {
+      "year": 1954,
+      "month": 12,
+      "fills": 10,
+      "revenue": 14043.0
+    },
+    {
+      "year": 1955,
+      "month": 1,
+      "fills": 4,
+      "revenue": 10907.0
+    },
+    {
+      "year": 1955,
+      "month": 2,
+      "fills": 1,
+      "revenue": 263.0
+    },
+    {
+      "year": 1955,
+      "month": 3,
+      "fills": 12,
+      "revenue": 245592.0
+    },
+    {
+      "year": 1955,
+      "month": 4,
+      "fills": 3,
+      "revenue": 3544.0
+    },
+    {
+      "year": 1955,
+      "month": 5,
+      "fills": 3,
+      "revenue": 3689.0
+    },
+    {
+      "year": 1955,
+      "month": 6,
+      "fills": 9,
+      "revenue": 22004.0
+    },
+    {
+      "year": 1955,
+      "month": 7,
+      "fills": 5,
+      "revenue": 14492.0
+    },
+    {
+      "year": 1955,
+      "month": 8,
+      "fills": 6,
+      "revenue": 15291.0
+    },
+    {
+      "year": 1955,
+      "month": 9,
+      "fills": 5,
+      "revenue": 10280.0
+    },
+    {
+      "year": 1955,
+      "month": 10,
+      "fills": 9,
+      "revenue": 24657.0
+    },
+    {
+      "year": 1955,
+      "month": 11,
+      "fills": 8,
+      "revenue": 24370.0
+    },
+    {
+      "year": 1955,
+      "month": 12,
+      "fills": 1,
+      "revenue": 3162.0
+    },
+    {
+      "year": 1956,
+      "month": 1,
+      "fills": 5,
+      "revenue": 6518.0
+    },
+    {
+      "year": 1956,
+      "month": 2,
+      "fills": 11,
+      "revenue": 6982.0
+    },
+    {
+      "year": 1956,
+      "month": 3,
+      "fills": 12,
+      "revenue": 26223.0
+    },
+    {
+      "year": 1956,
+      "month": 4,
+      "fills": 7,
+      "revenue": 10945.0
+    },
+    {
+      "year": 1956,
+      "month": 5,
+      "fills": 3,
+      "revenue": 2061.0
+    },
+    {
+      "year": 1956,
+      "month": 6,
+      "fills": 8,
+      "revenue": 15614.0
+    },
+    {
+      "year": 1956,
+      "month": 7,
+      "fills": 9,
+      "revenue": 23774.0
+    },
+    {
+      "year": 1956,
+      "month": 8,
+      "fills": 5,
+      "revenue": 15809.0
+    },
+    {
+      "year": 1956,
+      "month": 9,
+      "fills": 4,
+      "revenue": 1501.0
+    },
+    {
+      "year": 1956,
+      "month": 10,
+      "fills": 11,
+      "revenue": 28906.0
+    },
+    {
+      "year": 1956,
+      "month": 11,
+      "fills": 10,
+      "revenue": 23731.0
+    },
+    {
+      "year": 1956,
+      "month": 12,
+      "fills": 4,
+      "revenue": 4414.0
+    },
+    {
+      "year": 1957,
+      "month": 1,
+      "fills": 6,
+      "revenue": 211190.0
+    },
+    {
+      "year": 1957,
+      "month": 2,
+      "fills": 4,
+      "revenue": 5909.0
+    },
+    {
+      "year": 1957,
+      "month": 3,
+      "fills": 13,
+      "revenue": 39277.0
+    },
+    {
+      "year": 1957,
+      "month": 4,
+      "fills": 8,
+      "revenue": 215667.0
+    },
+    {
+      "year": 1957,
+      "month": 5,
+      "fills": 3,
+      "revenue": 3695.0
+    },
+    {
+      "year": 1957,
+      "month": 6,
+      "fills": 7,
+      "revenue": 15329.0
+    },
+    {
+      "year": 1957,
+      "month": 7,
+      "fills": 9,
+      "revenue": 15671.0
+    },
+    {
+      "year": 1957,
+      "month": 8,
+      "fills": 7,
+      "revenue": 12307.0
+    },
+    {
+      "year": 1957,
+      "month": 9,
+      "fills": 9,
+      "revenue": 10758.0
+    },
+    {
+      "year": 1957,
+      "month": 10,
+      "fills": 6,
+      "revenue": 18971.0
+    },
+    {
+      "year": 1957,
+      "month": 11,
+      "fills": 16,
+      "revenue": 32279.0
+    },
+    {
+      "year": 1957,
+      "month": 12,
+      "fills": 5,
+      "revenue": 4516.0
+    },
+    {
+      "year": 1958,
+      "month": 1,
+      "fills": 5,
+      "revenue": 17356.0
+    },
+    {
+      "year": 1958,
+      "month": 2,
+      "fills": 5,
+      "revenue": 14300.0
+    },
+    {
+      "year": 1958,
+      "month": 3,
+      "fills": 15,
+      "revenue": 34549.0
+    },
+    {
+      "year": 1958,
+      "month": 4,
+      "fills": 4,
+      "revenue": 10055.0
+    },
+    {
+      "year": 1958,
+      "month": 5,
+      "fills": 3,
+      "revenue": 7968.0
+    },
+    {
+      "year": 1958,
+      "month": 6,
+      "fills": 3,
+      "revenue": 7114.0
+    },
+    {
+      "year": 1958,
+      "month": 7,
+      "fills": 11,
+      "revenue": 19377.0
+    },
+    {
+      "year": 1958,
+      "month": 8,
+      "fills": 7,
+      "revenue": 12526.0
+    },
+    {
+      "year": 1958,
+      "month": 9,
+      "fills": 9,
+      "revenue": 14111.0
+    },
+    {
+      "year": 1958,
+      "month": 10,
+      "fills": 8,
+      "revenue": 19498.0
+    },
+    {
+      "year": 1958,
+      "month": 11,
+      "fills": 15,
+      "revenue": 27392.0
+    },
+    {
+      "year": 1958,
+      "month": 12,
+      "fills": 5,
+      "revenue": 7091.0
+    },
+    {
+      "year": 1959,
+      "month": 1,
+      "fills": 7,
+      "revenue": 17148.0
+    },
+    {
+      "year": 1959,
+      "month": 2,
+      "fills": 4,
+      "revenue": 9866.0
+    },
+    {
+      "year": 1959,
+      "month": 3,
+      "fills": 10,
+      "revenue": 24091.0
+    },
+    {
+      "year": 1959,
+      "month": 4,
+      "fills": 6,
+      "revenue": 11319.0
+    },
+    {
+      "year": 1959,
+      "month": 5,
+      "fills": 5,
+      "revenue": 21829.0
+    },
+    {
+      "year": 1959,
+      "month": 6,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1959,
+      "month": 7,
+      "fills": 15,
+      "revenue": 222251.0
+    },
+    {
+      "year": 1959,
+      "month": 8,
+      "fills": 7,
+      "revenue": 15029.0
+    },
+    {
+      "year": 1959,
+      "month": 9,
+      "fills": 5,
+      "revenue": 19076.0
+    },
+    {
+      "year": 1959,
+      "month": 10,
+      "fills": 11,
+      "revenue": 19695.0
+    },
+    {
+      "year": 1959,
+      "month": 11,
+      "fills": 10,
+      "revenue": 21380.0
+    },
+    {
+      "year": 1959,
+      "month": 12,
+      "fills": 10,
+      "revenue": 20661.0
+    },
+    {
+      "year": 1960,
+      "month": 1,
+      "fills": 5,
+      "revenue": 5489.0
+    },
+    {
+      "year": 1960,
+      "month": 2,
+      "fills": 5,
+      "revenue": 11821.0
+    },
+    {
+      "year": 1960,
+      "month": 3,
+      "fills": 4,
+      "revenue": 7909.0
+    },
+    {
+      "year": 1960,
+      "month": 4,
+      "fills": 12,
+      "revenue": 44567.0
+    },
+    {
+      "year": 1960,
+      "month": 5,
+      "fills": 10,
+      "revenue": 24665.0
+    },
+    {
+      "year": 1960,
+      "month": 6,
+      "fills": 4,
+      "revenue": 10013.0
+    },
+    {
+      "year": 1960,
+      "month": 7,
+      "fills": 12,
+      "revenue": 34544.0
+    },
+    {
+      "year": 1960,
+      "month": 8,
+      "fills": 8,
+      "revenue": 16098.0
+    },
+    {
+      "year": 1960,
+      "month": 9,
+      "fills": 10,
+      "revenue": 22771.0
+    },
+    {
+      "year": 1960,
+      "month": 10,
+      "fills": 8,
+      "revenue": 17118.0
+    },
+    {
+      "year": 1960,
+      "month": 11,
+      "fills": 13,
+      "revenue": 26440.0
+    },
+    {
+      "year": 1960,
+      "month": 12,
+      "fills": 6,
+      "revenue": 9350.0
+    },
+    {
+      "year": 1961,
+      "month": 1,
+      "fills": 10,
+      "revenue": 20176.0
+    },
+    {
+      "year": 1961,
+      "month": 2,
+      "fills": 3,
+      "revenue": 6973.0
+    },
+    {
+      "year": 1961,
+      "month": 3,
+      "fills": 7,
+      "revenue": 5075.0
+    },
+    {
+      "year": 1961,
+      "month": 4,
+      "fills": 15,
+      "revenue": 41437.0
+    },
+    {
+      "year": 1961,
+      "month": 5,
+      "fills": 10,
+      "revenue": 21471.0
+    },
+    {
+      "year": 1961,
+      "month": 6,
+      "fills": 10,
+      "revenue": 312926.0
+    },
+    {
+      "year": 1961,
+      "month": 7,
+      "fills": 15,
+      "revenue": 28432.0
+    },
+    {
+      "year": 1961,
+      "month": 8,
+      "fills": 9,
+      "revenue": 165377.0
+    },
+    {
+      "year": 1961,
+      "month": 9,
+      "fills": 9,
+      "revenue": 20033.0
+    },
+    {
+      "year": 1961,
+      "month": 10,
+      "fills": 13,
+      "revenue": 26549.0
+    },
+    {
+      "year": 1961,
+      "month": 11,
+      "fills": 8,
+      "revenue": 14490.0
+    },
+    {
+      "year": 1961,
+      "month": 12,
+      "fills": 11,
+      "revenue": 17664.0
+    },
+    {
+      "year": 1962,
+      "month": 1,
+      "fills": 7,
+      "revenue": 20876.0
+    },
+    {
+      "year": 1962,
+      "month": 2,
+      "fills": 10,
+      "revenue": 22968.0
+    },
+    {
+      "year": 1962,
+      "month": 3,
+      "fills": 6,
+      "revenue": 30378.0
+    },
+    {
+      "year": 1962,
+      "month": 4,
+      "fills": 17,
+      "revenue": 44547.0
+    },
+    {
+      "year": 1962,
+      "month": 5,
+      "fills": 11,
+      "revenue": 12681.0
+    },
+    {
+      "year": 1962,
+      "month": 6,
+      "fills": 7,
+      "revenue": 16313.0
+    },
+    {
+      "year": 1962,
+      "month": 7,
+      "fills": 11,
+      "revenue": 27656.0
+    },
+    {
+      "year": 1962,
+      "month": 8,
+      "fills": 12,
+      "revenue": 38677.0
+    },
+    {
+      "year": 1962,
+      "month": 9,
+      "fills": 7,
+      "revenue": 15060.0
+    },
+    {
+      "year": 1962,
+      "month": 10,
+      "fills": 10,
+      "revenue": 22384.0
+    },
+    {
+      "year": 1962,
+      "month": 11,
+      "fills": 9,
+      "revenue": 95421.0
+    },
+    {
+      "year": 1962,
+      "month": 12,
+      "fills": 15,
+      "revenue": 32914.0
+    },
+    {
+      "year": 1963,
+      "month": 1,
+      "fills": 4,
+      "revenue": 3719.0
+    },
+    {
+      "year": 1963,
+      "month": 2,
+      "fills": 7,
+      "revenue": 8145.0
+    },
+    {
+      "year": 1963,
+      "month": 3,
+      "fills": 9,
+      "revenue": 20498.0
+    },
+    {
+      "year": 1963,
+      "month": 4,
+      "fills": 18,
+      "revenue": 186422.0
+    },
+    {
+      "year": 1963,
+      "month": 5,
+      "fills": 6,
+      "revenue": 12384.0
+    },
+    {
+      "year": 1963,
+      "month": 6,
+      "fills": 8,
+      "revenue": 19987.0
+    },
+    {
+      "year": 1963,
+      "month": 7,
+      "fills": 3,
+      "revenue": 6900.0
+    },
+    {
+      "year": 1963,
+      "month": 8,
+      "fills": 18,
+      "revenue": 40232.0
+    },
+    {
+      "year": 1963,
+      "month": 9,
+      "fills": 6,
+      "revenue": 14609.0
+    },
+    {
+      "year": 1963,
+      "month": 10,
+      "fills": 7,
+      "revenue": 17573.0
+    },
+    {
+      "year": 1963,
+      "month": 11,
+      "fills": 8,
+      "revenue": 16440.0
+    },
+    {
+      "year": 1963,
+      "month": 12,
+      "fills": 14,
+      "revenue": 29625.0
+    },
+    {
+      "year": 1964,
+      "month": 1,
+      "fills": 6,
+      "revenue": 22399.0
+    },
+    {
+      "year": 1964,
+      "month": 2,
+      "fills": 8,
+      "revenue": 9414.0
+    },
+    {
+      "year": 1964,
+      "month": 3,
+      "fills": 12,
+      "revenue": 292496.0
+    },
+    {
+      "year": 1964,
+      "month": 4,
+      "fills": 13,
+      "revenue": 39560.0
+    },
+    {
+      "year": 1964,
+      "month": 5,
+      "fills": 7,
+      "revenue": 24276.0
+    },
+    {
+      "year": 1964,
+      "month": 6,
+      "fills": 10,
+      "revenue": 369389.0
+    },
+    {
+      "year": 1964,
+      "month": 7,
+      "fills": 9,
+      "revenue": 18733.0
+    },
+    {
+      "year": 1964,
+      "month": 8,
+      "fills": 23,
+      "revenue": 50995.0
+    },
+    {
+      "year": 1964,
+      "month": 9,
+      "fills": 11,
+      "revenue": 29784.0
+    },
+    {
+      "year": 1964,
+      "month": 10,
+      "fills": 10,
+      "revenue": 23477.0
+    },
+    {
+      "year": 1964,
+      "month": 11,
+      "fills": 5,
+      "revenue": 15809.0
+    },
+    {
+      "year": 1964,
+      "month": 12,
+      "fills": 16,
+      "revenue": 41404.0
+    },
+    {
+      "year": 1965,
+      "month": 1,
+      "fills": 5,
+      "revenue": 7198.0
+    },
+    {
+      "year": 1965,
+      "month": 2,
+      "fills": 6,
+      "revenue": 11128.0
+    },
+    {
+      "year": 1965,
+      "month": 3,
+      "fills": 12,
+      "revenue": 376583.0
+    },
+    {
+      "year": 1965,
+      "month": 4,
+      "fills": 4,
+      "revenue": 12648.0
+    },
+    {
+      "year": 1965,
+      "month": 5,
+      "fills": 13,
+      "revenue": 37662.0
+    },
+    {
+      "year": 1965,
+      "month": 6,
+      "fills": 9,
+      "revenue": 19475.0
+    },
+    {
+      "year": 1965,
+      "month": 7,
+      "fills": 7,
+      "revenue": 17063.0
+    },
+    {
+      "year": 1965,
+      "month": 8,
+      "fills": 24,
+      "revenue": 212438.0
+    },
+    {
+      "year": 1965,
+      "month": 9,
+      "fills": 7,
+      "revenue": 16001.0
+    },
+    {
+      "year": 1965,
+      "month": 10,
+      "fills": 14,
+      "revenue": 25243.0
+    },
+    {
+      "year": 1965,
+      "month": 11,
+      "fills": 7,
+      "revenue": 18856.0
+    },
+    {
+      "year": 1965,
+      "month": 12,
+      "fills": 13,
+      "revenue": 25647.0
+    },
+    {
+      "year": 1966,
+      "month": 1,
+      "fills": 10,
+      "revenue": 33946.0
+    },
+    {
+      "year": 1966,
+      "month": 2,
+      "fills": 5,
+      "revenue": 9320.0
+    },
+    {
+      "year": 1966,
+      "month": 3,
+      "fills": 11,
+      "revenue": 22760.0
+    },
+    {
+      "year": 1966,
+      "month": 4,
+      "fills": 8,
+      "revenue": 13470.0
+    },
+    {
+      "year": 1966,
+      "month": 5,
+      "fills": 16,
+      "revenue": 29732.0
+    },
+    {
+      "year": 1966,
+      "month": 6,
+      "fills": 11,
+      "revenue": 27071.0
+    },
+    {
+      "year": 1966,
+      "month": 7,
+      "fills": 9,
+      "revenue": 19889.0
+    },
+    {
+      "year": 1966,
+      "month": 8,
+      "fills": 17,
+      "revenue": 29967.0
+    },
+    {
+      "year": 1966,
+      "month": 9,
+      "fills": 14,
+      "revenue": 106731.0
+    },
+    {
+      "year": 1966,
+      "month": 10,
+      "fills": 17,
+      "revenue": 29544.0
+    },
+    {
+      "year": 1966,
+      "month": 11,
+      "fills": 8,
+      "revenue": 14044.0
+    },
+    {
+      "year": 1966,
+      "month": 12,
+      "fills": 9,
+      "revenue": 86247.0
+    },
+    {
+      "year": 1967,
+      "month": 1,
+      "fills": 14,
+      "revenue": 20916.0
+    },
+    {
+      "year": 1967,
+      "month": 2,
+      "fills": 5,
+      "revenue": 8939.0
+    },
+    {
+      "year": 1967,
+      "month": 3,
+      "fills": 18,
+      "revenue": 22588.0
+    },
+    {
+      "year": 1967,
+      "month": 4,
+      "fills": 25,
+      "revenue": 33668.0
+    },
+    {
+      "year": 1967,
+      "month": 5,
+      "fills": 30,
+      "revenue": 48525.0
+    },
+    {
+      "year": 1967,
+      "month": 6,
+      "fills": 17,
+      "revenue": 18939.0
+    },
+    {
+      "year": 1967,
+      "month": 7,
+      "fills": 23,
+      "revenue": 25820.0
+    },
+    {
+      "year": 1967,
+      "month": 8,
+      "fills": 23,
+      "revenue": 37180.0
+    },
+    {
+      "year": 1967,
+      "month": 9,
+      "fills": 25,
+      "revenue": 40339.0
+    },
+    {
+      "year": 1967,
+      "month": 10,
+      "fills": 23,
+      "revenue": 24803.0
+    },
+    {
+      "year": 1967,
+      "month": 11,
+      "fills": 20,
+      "revenue": 13915.0
+    },
+    {
+      "year": 1967,
+      "month": 12,
+      "fills": 26,
+      "revenue": 38767.0
+    },
+    {
+      "year": 1968,
+      "month": 1,
+      "fills": 26,
+      "revenue": 49083.0
+    },
+    {
+      "year": 1968,
+      "month": 2,
+      "fills": 17,
+      "revenue": 10846.0
+    },
+    {
+      "year": 1968,
+      "month": 3,
+      "fills": 25,
+      "revenue": 28566.0
+    },
+    {
+      "year": 1968,
+      "month": 4,
+      "fills": 28,
+      "revenue": 34598.0
+    },
+    {
+      "year": 1968,
+      "month": 5,
+      "fills": 30,
+      "revenue": 55246.0
+    },
+    {
+      "year": 1968,
+      "month": 6,
+      "fills": 22,
+      "revenue": 22249.0
+    },
+    {
+      "year": 1968,
+      "month": 7,
+      "fills": 22,
+      "revenue": 27748.0
+    },
+    {
+      "year": 1968,
+      "month": 8,
+      "fills": 16,
+      "revenue": 70446.0
+    },
+    {
+      "year": 1968,
+      "month": 9,
+      "fills": 40,
+      "revenue": 75751.0
+    },
+    {
+      "year": 1968,
+      "month": 10,
+      "fills": 21,
+      "revenue": 22509.0
+    },
+    {
+      "year": 1968,
+      "month": 11,
+      "fills": 20,
+      "revenue": 13782.0
+    },
+    {
+      "year": 1968,
+      "month": 12,
+      "fills": 25,
+      "revenue": 31806.0
+    },
+    {
+      "year": 1969,
+      "month": 1,
+      "fills": 26,
+      "revenue": 45973.0
+    },
+    {
+      "year": 1969,
+      "month": 2,
+      "fills": 17,
+      "revenue": 9785.0
+    },
+    {
+      "year": 1969,
+      "month": 3,
+      "fills": 27,
+      "revenue": 30398.0
+    },
+    {
+      "year": 1969,
+      "month": 4,
+      "fills": 26,
+      "revenue": 34419.0
+    },
+    {
+      "year": 1969,
+      "month": 5,
+      "fills": 29,
+      "revenue": 204983.0
+    },
+    {
+      "year": 1969,
+      "month": 6,
+      "fills": 26,
+      "revenue": 37158.0
+    },
+    {
+      "year": 1969,
+      "month": 7,
+      "fills": 20,
+      "revenue": 304710.0
+    },
+    {
+      "year": 1969,
+      "month": 8,
+      "fills": 20,
+      "revenue": 111483.0
+    },
+    {
+      "year": 1969,
+      "month": 9,
+      "fills": 35,
+      "revenue": 64120.0
+    },
+    {
+      "year": 1969,
+      "month": 10,
+      "fills": 20,
+      "revenue": 13154.0
+    },
+    {
+      "year": 1969,
+      "month": 11,
+      "fills": 24,
+      "revenue": 24472.0
+    },
+    {
+      "year": 1969,
+      "month": 12,
+      "fills": 23,
+      "revenue": 129632.0
+    },
+    {
+      "year": 1970,
+      "month": 1,
+      "fills": 24,
+      "revenue": 34537.0
+    },
+    {
+      "year": 1970,
+      "month": 2,
+      "fills": 20,
+      "revenue": 47122.0
+    },
+    {
+      "year": 1970,
+      "month": 3,
+      "fills": 25,
+      "revenue": 170369.0
+    },
+    {
+      "year": 1970,
+      "month": 4,
+      "fills": 26,
+      "revenue": 46066.0
+    },
+    {
+      "year": 1970,
+      "month": 5,
+      "fills": 27,
+      "revenue": 34895.0
+    },
+    {
+      "year": 1970,
+      "month": 6,
+      "fills": 25,
+      "revenue": 40710.0
+    },
+    {
+      "year": 1970,
+      "month": 7,
+      "fills": 22,
+      "revenue": 30946.0
+    },
+    {
+      "year": 1970,
+      "month": 8,
+      "fills": 22,
+      "revenue": 33126.0
+    },
+    {
+      "year": 1970,
+      "month": 9,
+      "fills": 37,
+      "revenue": 65062.0
+    },
+    {
+      "year": 1970,
+      "month": 10,
+      "fills": 17,
+      "revenue": 19502.0
+    },
+    {
+      "year": 1970,
+      "month": 11,
+      "fills": 22,
+      "revenue": 26324.0
+    },
+    {
+      "year": 1970,
+      "month": 12,
+      "fills": 24,
+      "revenue": 345185.0
+    },
+    {
+      "year": 1971,
+      "month": 1,
+      "fills": 23,
+      "revenue": 183851.0
+    },
+    {
+      "year": 1971,
+      "month": 2,
+      "fills": 18,
+      "revenue": 22066.0
+    },
+    {
+      "year": 1971,
+      "month": 3,
+      "fills": 22,
+      "revenue": 28849.0
+    },
+    {
+      "year": 1971,
+      "month": 4,
+      "fills": 28,
+      "revenue": 38334.0
+    },
+    {
+      "year": 1971,
+      "month": 5,
+      "fills": 24,
+      "revenue": 23191.0
+    },
+    {
+      "year": 1971,
+      "month": 6,
+      "fills": 39,
+      "revenue": 226047.0
+    },
+    {
+      "year": 1971,
+      "month": 7,
+      "fills": 22,
+      "revenue": 23668.0
+    },
+    {
+      "year": 1971,
+      "month": 8,
+      "fills": 23,
+      "revenue": 29629.0
+    },
+    {
+      "year": 1971,
+      "month": 9,
+      "fills": 33,
+      "revenue": 51978.0
+    },
+    {
+      "year": 1971,
+      "month": 10,
+      "fills": 30,
+      "revenue": 35973.0
+    },
+    {
+      "year": 1971,
+      "month": 11,
+      "fills": 27,
+      "revenue": 24913.0
+    },
+    {
+      "year": 1971,
+      "month": 12,
+      "fills": 22,
+      "revenue": 33068.0
+    },
+    {
+      "year": 1972,
+      "month": 1,
+      "fills": 26,
+      "revenue": 22631.0
+    },
+    {
+      "year": 1972,
+      "month": 2,
+      "fills": 24,
+      "revenue": 202180.0
+    },
+    {
+      "year": 1972,
+      "month": 3,
+      "fills": 30,
+      "revenue": 33960.0
+    },
+    {
+      "year": 1972,
+      "month": 4,
+      "fills": 23,
+      "revenue": 31689.0
+    },
+    {
+      "year": 1972,
+      "month": 5,
+      "fills": 29,
+      "revenue": 36032.0
+    },
+    {
+      "year": 1972,
+      "month": 6,
+      "fills": 43,
+      "revenue": 62770.0
+    },
+    {
+      "year": 1972,
+      "month": 7,
+      "fills": 25,
+      "revenue": 26831.0
+    },
+    {
+      "year": 1972,
+      "month": 8,
+      "fills": 29,
+      "revenue": 43743.0
+    },
+    {
+      "year": 1972,
+      "month": 9,
+      "fills": 27,
+      "revenue": 39737.0
+    },
+    {
+      "year": 1972,
+      "month": 10,
+      "fills": 31,
+      "revenue": 43232.0
+    },
+    {
+      "year": 1972,
+      "month": 11,
+      "fills": 23,
+      "revenue": 28780.0
+    },
+    {
+      "year": 1972,
+      "month": 12,
+      "fills": 28,
+      "revenue": 151866.0
+    },
+    {
+      "year": 1973,
+      "month": 1,
+      "fills": 32,
+      "revenue": 386570.0
+    },
+    {
+      "year": 1973,
+      "month": 2,
+      "fills": 25,
+      "revenue": 38959.0
+    },
+    {
+      "year": 1973,
+      "month": 3,
+      "fills": 17,
+      "revenue": 23571.0
+    },
+    {
+      "year": 1973,
+      "month": 4,
+      "fills": 32,
+      "revenue": 43646.0
+    },
+    {
+      "year": 1973,
+      "month": 5,
+      "fills": 32,
+      "revenue": 42846.0
+    },
+    {
+      "year": 1973,
+      "month": 6,
+      "fills": 34,
+      "revenue": 71726.0
+    },
+    {
+      "year": 1973,
+      "month": 7,
+      "fills": 31,
+      "revenue": 53690.0
+    },
+    {
+      "year": 1973,
+      "month": 8,
+      "fills": 32,
+      "revenue": 145035.0
+    },
+    {
+      "year": 1973,
+      "month": 9,
+      "fills": 28,
+      "revenue": 28280.0
+    },
+    {
+      "year": 1973,
+      "month": 10,
+      "fills": 30,
+      "revenue": 50180.0
+    },
+    {
+      "year": 1973,
+      "month": 11,
+      "fills": 29,
+      "revenue": 149098.0
+    },
+    {
+      "year": 1973,
+      "month": 12,
+      "fills": 32,
+      "revenue": 179519.0
+    },
+    {
+      "year": 1974,
+      "month": 1,
+      "fills": 21,
+      "revenue": 22561.0
+    },
+    {
+      "year": 1974,
+      "month": 2,
+      "fills": 34,
+      "revenue": 59352.0
+    },
+    {
+      "year": 1974,
+      "month": 3,
+      "fills": 18,
+      "revenue": 17462.0
+    },
+    {
+      "year": 1974,
+      "month": 4,
+      "fills": 35,
+      "revenue": 158385.0
+    },
+    {
+      "year": 1974,
+      "month": 5,
+      "fills": 26,
+      "revenue": 32656.0
+    },
+    {
+      "year": 1974,
+      "month": 6,
+      "fills": 41,
+      "revenue": 50695.0
+    },
+    {
+      "year": 1974,
+      "month": 7,
+      "fills": 32,
+      "revenue": 158458.0
+    },
+    {
+      "year": 1974,
+      "month": 8,
+      "fills": 33,
+      "revenue": 52255.0
+    },
+    {
+      "year": 1974,
+      "month": 9,
+      "fills": 19,
+      "revenue": 14847.0
+    },
+    {
+      "year": 1974,
+      "month": 10,
+      "fills": 47,
+      "revenue": 89722.0
+    },
+    {
+      "year": 1974,
+      "month": 11,
+      "fills": 25,
+      "revenue": 90934.0
+    },
+    {
+      "year": 1974,
+      "month": 12,
+      "fills": 31,
+      "revenue": 35277.0
+    },
+    {
+      "year": 1975,
+      "month": 1,
+      "fills": 22,
+      "revenue": 29486.0
+    },
+    {
+      "year": 1975,
+      "month": 2,
+      "fills": 30,
+      "revenue": 100537.0
+    },
+    {
+      "year": 1975,
+      "month": 3,
+      "fills": 23,
+      "revenue": 31766.0
+    },
+    {
+      "year": 1975,
+      "month": 4,
+      "fills": 32,
+      "revenue": 54414.0
+    },
+    {
+      "year": 1975,
+      "month": 5,
+      "fills": 32,
+      "revenue": 47273.0
+    },
+    {
+      "year": 1975,
+      "month": 6,
+      "fills": 34,
+      "revenue": 96130.0
+    },
+    {
+      "year": 1975,
+      "month": 7,
+      "fills": 36,
+      "revenue": 203653.0
+    },
+    {
+      "year": 1975,
+      "month": 8,
+      "fills": 27,
+      "revenue": 49030.0
+    },
+    {
+      "year": 1975,
+      "month": 9,
+      "fills": 29,
+      "revenue": 38143.0
+    },
+    {
+      "year": 1975,
+      "month": 10,
+      "fills": 42,
+      "revenue": 83423.0
+    },
+    {
+      "year": 1975,
+      "month": 11,
+      "fills": 25,
+      "revenue": 32647.0
+    },
+    {
+      "year": 1975,
+      "month": 12,
+      "fills": 29,
+      "revenue": 39352.0
+    },
+    {
+      "year": 1976,
+      "month": 1,
+      "fills": 22,
+      "revenue": 35865.0
+    },
+    {
+      "year": 1976,
+      "month": 2,
+      "fills": 31,
+      "revenue": 192486.0
+    },
+    {
+      "year": 1976,
+      "month": 3,
+      "fills": 30,
+      "revenue": 54760.0
+    },
+    {
+      "year": 1976,
+      "month": 4,
+      "fills": 32,
+      "revenue": 54325.0
+    },
+    {
+      "year": 1976,
+      "month": 5,
+      "fills": 38,
+      "revenue": 57120.0
+    },
+    {
+      "year": 1976,
+      "month": 6,
+      "fills": 23,
+      "revenue": 37616.0
+    },
+    {
+      "year": 1976,
+      "month": 7,
+      "fills": 43,
+      "revenue": 67082.0
+    },
+    {
+      "year": 1976,
+      "month": 8,
+      "fills": 35,
+      "revenue": 64818.0
+    },
+    {
+      "year": 1976,
+      "month": 9,
+      "fills": 32,
+      "revenue": 82252.0
+    },
+    {
+      "year": 1976,
+      "month": 10,
+      "fills": 38,
+      "revenue": 82748.0
+    },
+    {
+      "year": 1976,
+      "month": 11,
+      "fills": 35,
+      "revenue": 62732.0
+    },
+    {
+      "year": 1976,
+      "month": 12,
+      "fills": 27,
+      "revenue": 52286.0
+    },
+    {
+      "year": 1977,
+      "month": 1,
+      "fills": 30,
+      "revenue": 55289.0
+    },
+    {
+      "year": 1977,
+      "month": 2,
+      "fills": 28,
+      "revenue": 43549.0
+    },
+    {
+      "year": 1977,
+      "month": 3,
+      "fills": 33,
+      "revenue": 75591.0
+    },
+    {
+      "year": 1977,
+      "month": 4,
+      "fills": 19,
+      "revenue": 49203.0
+    },
+    {
+      "year": 1977,
+      "month": 5,
+      "fills": 23,
+      "revenue": 65956.0
+    },
+    {
+      "year": 1977,
+      "month": 6,
+      "fills": 23,
+      "revenue": 49952.0
+    },
+    {
+      "year": 1977,
+      "month": 7,
+      "fills": 31,
+      "revenue": 218624.0
+    },
+    {
+      "year": 1977,
+      "month": 8,
+      "fills": 28,
+      "revenue": 159742.0
+    },
+    {
+      "year": 1977,
+      "month": 9,
+      "fills": 18,
+      "revenue": 49446.0
+    },
+    {
+      "year": 1977,
+      "month": 10,
+      "fills": 25,
+      "revenue": 61100.0
+    },
+    {
+      "year": 1977,
+      "month": 11,
+      "fills": 27,
+      "revenue": 66271.0
+    },
+    {
+      "year": 1977,
+      "month": 12,
+      "fills": 23,
+      "revenue": 52857.0
+    },
+    {
+      "year": 1978,
+      "month": 1,
+      "fills": 17,
+      "revenue": 40776.0
+    },
+    {
+      "year": 1978,
+      "month": 2,
+      "fills": 15,
+      "revenue": 94350.0
+    },
+    {
+      "year": 1978,
+      "month": 3,
+      "fills": 27,
+      "revenue": 87178.0
+    },
+    {
+      "year": 1978,
+      "month": 4,
+      "fills": 13,
+      "revenue": 38363.0
+    },
+    {
+      "year": 1978,
+      "month": 5,
+      "fills": 28,
+      "revenue": 199630.0
+    },
+    {
+      "year": 1978,
+      "month": 6,
+      "fills": 21,
+      "revenue": 48459.0
+    },
+    {
+      "year": 1978,
+      "month": 7,
+      "fills": 32,
+      "revenue": 93115.0
+    },
+    {
+      "year": 1978,
+      "month": 8,
+      "fills": 20,
+      "revenue": 46014.0
+    },
+    {
+      "year": 1978,
+      "month": 9,
+      "fills": 21,
+      "revenue": 53349.0
+    },
+    {
+      "year": 1978,
+      "month": 10,
+      "fills": 21,
+      "revenue": 39147.0
+    },
+    {
+      "year": 1978,
+      "month": 11,
+      "fills": 23,
+      "revenue": 71790.0
+    },
+    {
+      "year": 1978,
+      "month": 12,
+      "fills": 17,
+      "revenue": 168740.0
+    },
+    {
+      "year": 1979,
+      "month": 1,
+      "fills": 16,
+      "revenue": 41706.0
+    },
+    {
+      "year": 1979,
+      "month": 2,
+      "fills": 12,
+      "revenue": 33074.0
+    },
+    {
+      "year": 1979,
+      "month": 3,
+      "fills": 30,
+      "revenue": 158212.0
+    },
+    {
+      "year": 1979,
+      "month": 4,
+      "fills": 11,
+      "revenue": 155324.0
+    },
+    {
+      "year": 1979,
+      "month": 5,
+      "fills": 26,
+      "revenue": 180865.0
+    },
+    {
+      "year": 1979,
+      "month": 6,
+      "fills": 28,
+      "revenue": 61893.0
+    },
+    {
+      "year": 1979,
+      "month": 7,
+      "fills": 28,
+      "revenue": 191816.0
+    },
+    {
+      "year": 1979,
+      "month": 8,
+      "fills": 23,
+      "revenue": 51155.0
+    },
+    {
+      "year": 1979,
+      "month": 9,
+      "fills": 26,
+      "revenue": 49302.0
+    },
+    {
+      "year": 1979,
+      "month": 10,
+      "fills": 7,
+      "revenue": 16479.0
+    },
+    {
+      "year": 1979,
+      "month": 11,
+      "fills": 34,
+      "revenue": 87067.0
+    },
+    {
+      "year": 1979,
+      "month": 12,
+      "fills": 15,
+      "revenue": 33983.0
+    },
+    {
+      "year": 1980,
+      "month": 1,
+      "fills": 15,
+      "revenue": 27946.0
+    },
+    {
+      "year": 1980,
+      "month": 2,
+      "fills": 19,
+      "revenue": 42968.0
+    },
+    {
+      "year": 1980,
+      "month": 3,
+      "fills": 25,
+      "revenue": 62614.0
+    },
+    {
+      "year": 1980,
+      "month": 4,
+      "fills": 12,
+      "revenue": 21308.0
+    },
+    {
+      "year": 1980,
+      "month": 5,
+      "fills": 35,
+      "revenue": 205889.0
+    },
+    {
+      "year": 1980,
+      "month": 6,
+      "fills": 25,
+      "revenue": 63384.0
+    },
+    {
+      "year": 1980,
+      "month": 7,
+      "fills": 20,
+      "revenue": 48131.0
+    },
+    {
+      "year": 1980,
+      "month": 8,
+      "fills": 27,
+      "revenue": 43966.0
+    },
+    {
+      "year": 1980,
+      "month": 9,
+      "fills": 16,
+      "revenue": 37147.0
+    },
+    {
+      "year": 1980,
+      "month": 10,
+      "fills": 12,
+      "revenue": 23066.0
+    },
+    {
+      "year": 1980,
+      "month": 11,
+      "fills": 39,
+      "revenue": 93334.0
+    },
+    {
+      "year": 1980,
+      "month": 12,
+      "fills": 17,
+      "revenue": 159763.0
+    },
+    {
+      "year": 1981,
+      "month": 1,
+      "fills": 16,
+      "revenue": 42346.0
+    },
+    {
+      "year": 1981,
+      "month": 2,
+      "fills": 22,
+      "revenue": 42341.0
+    },
+    {
+      "year": 1981,
+      "month": 3,
+      "fills": 20,
+      "revenue": 57830.0
+    },
+    {
+      "year": 1981,
+      "month": 4,
+      "fills": 21,
+      "revenue": 298716.0
+    },
+    {
+      "year": 1981,
+      "month": 5,
+      "fills": 31,
+      "revenue": 188197.0
+    },
+    {
+      "year": 1981,
+      "month": 6,
+      "fills": 24,
+      "revenue": 42963.0
+    },
+    {
+      "year": 1981,
+      "month": 7,
+      "fills": 20,
+      "revenue": 34196.0
+    },
+    {
+      "year": 1981,
+      "month": 8,
+      "fills": 34,
+      "revenue": 138647.0
+    },
+    {
+      "year": 1981,
+      "month": 9,
+      "fills": 29,
+      "revenue": 59323.0
+    },
+    {
+      "year": 1981,
+      "month": 10,
+      "fills": 25,
+      "revenue": 166242.0
+    },
+    {
+      "year": 1981,
+      "month": 11,
+      "fills": 29,
+      "revenue": 64794.0
+    },
+    {
+      "year": 1981,
+      "month": 12,
+      "fills": 21,
+      "revenue": 45782.0
+    },
+    {
+      "year": 1982,
+      "month": 1,
+      "fills": 19,
+      "revenue": 43630.0
+    },
+    {
+      "year": 1982,
+      "month": 2,
+      "fills": 24,
+      "revenue": 171268.0
+    },
+    {
+      "year": 1982,
+      "month": 3,
+      "fills": 21,
+      "revenue": 51889.0
+    },
+    {
+      "year": 1982,
+      "month": 4,
+      "fills": 22,
+      "revenue": 35179.0
+    },
+    {
+      "year": 1982,
+      "month": 5,
+      "fills": 28,
+      "revenue": 59991.0
+    },
+    {
+      "year": 1982,
+      "month": 6,
+      "fills": 27,
+      "revenue": 42977.0
+    },
+    {
+      "year": 1982,
+      "month": 7,
+      "fills": 25,
+      "revenue": 87886.0
+    },
+    {
+      "year": 1982,
+      "month": 8,
+      "fills": 41,
+      "revenue": 78033.0
+    },
+    {
+      "year": 1982,
+      "month": 9,
+      "fills": 22,
+      "revenue": 49521.0
+    },
+    {
+      "year": 1982,
+      "month": 10,
+      "fills": 29,
+      "revenue": 75233.0
+    },
+    {
+      "year": 1982,
+      "month": 11,
+      "fills": 25,
+      "revenue": 65213.0
+    },
+    {
+      "year": 1982,
+      "month": 12,
+      "fills": 25,
+      "revenue": 166186.0
+    },
+    {
+      "year": 1983,
+      "month": 1,
+      "fills": 31,
+      "revenue": 74603.0
+    },
+    {
+      "year": 1983,
+      "month": 2,
+      "fills": 22,
+      "revenue": 158722.0
+    },
+    {
+      "year": 1983,
+      "month": 3,
+      "fills": 28,
+      "revenue": 310186.0
+    },
+    {
+      "year": 1983,
+      "month": 4,
+      "fills": 38,
+      "revenue": 197187.0
+    },
+    {
+      "year": 1983,
+      "month": 5,
+      "fills": 16,
+      "revenue": 41590.0
+    },
+    {
+      "year": 1983,
+      "month": 6,
+      "fills": 31,
+      "revenue": 84359.0
+    },
+    {
+      "year": 1983,
+      "month": 7,
+      "fills": 28,
+      "revenue": 179735.0
+    },
+    {
+      "year": 1983,
+      "month": 8,
+      "fills": 35,
+      "revenue": 75597.0
+    },
+    {
+      "year": 1983,
+      "month": 9,
+      "fills": 30,
+      "revenue": 59179.0
+    },
+    {
+      "year": 1983,
+      "month": 10,
+      "fills": 29,
+      "revenue": 60613.0
+    },
+    {
+      "year": 1983,
+      "month": 11,
+      "fills": 25,
+      "revenue": 52461.0
+    },
+    {
+      "year": 1983,
+      "month": 12,
+      "fills": 27,
+      "revenue": 47911.0
+    },
+    {
+      "year": 1984,
+      "month": 1,
+      "fills": 20,
+      "revenue": 44691.0
+    },
+    {
+      "year": 1984,
+      "month": 2,
+      "fills": 18,
+      "revenue": 49737.0
+    },
+    {
+      "year": 1984,
+      "month": 3,
+      "fills": 33,
+      "revenue": 74583.0
+    },
+    {
+      "year": 1984,
+      "month": 4,
+      "fills": 34,
+      "revenue": 77689.0
+    },
+    {
+      "year": 1984,
+      "month": 5,
+      "fills": 20,
+      "revenue": 42930.0
+    },
+    {
+      "year": 1984,
+      "month": 6,
+      "fills": 33,
+      "revenue": 70820.0
+    },
+    {
+      "year": 1984,
+      "month": 7,
+      "fills": 38,
+      "revenue": 177930.0
+    },
+    {
+      "year": 1984,
+      "month": 8,
+      "fills": 41,
+      "revenue": 329750.0
+    },
+    {
+      "year": 1984,
+      "month": 9,
+      "fills": 38,
+      "revenue": 56428.0
+    },
+    {
+      "year": 1984,
+      "month": 10,
+      "fills": 38,
+      "revenue": 309173.0
+    },
+    {
+      "year": 1984,
+      "month": 11,
+      "fills": 33,
+      "revenue": 71140.0
+    },
+    {
+      "year": 1984,
+      "month": 12,
+      "fills": 36,
+      "revenue": 93061.0
+    },
+    {
+      "year": 1985,
+      "month": 1,
+      "fills": 20,
+      "revenue": 41728.0
+    },
+    {
+      "year": 1985,
+      "month": 2,
+      "fills": 22,
+      "revenue": 35746.0
+    },
+    {
+      "year": 1985,
+      "month": 3,
+      "fills": 34,
+      "revenue": 83967.0
+    },
+    {
+      "year": 1985,
+      "month": 4,
+      "fills": 36,
+      "revenue": 83338.0
+    },
+    {
+      "year": 1985,
+      "month": 5,
+      "fills": 19,
+      "revenue": 38970.0
+    },
+    {
+      "year": 1985,
+      "month": 6,
+      "fills": 39,
+      "revenue": 130728.0
+    },
+    {
+      "year": 1985,
+      "month": 7,
+      "fills": 32,
+      "revenue": 62521.0
+    },
+    {
+      "year": 1985,
+      "month": 8,
+      "fills": 32,
+      "revenue": 87303.0
+    },
+    {
+      "year": 1985,
+      "month": 9,
+      "fills": 39,
+      "revenue": 155210.0
+    },
+    {
+      "year": 1985,
+      "month": 10,
+      "fills": 40,
+      "revenue": 214839.0
+    },
+    {
+      "year": 1985,
+      "month": 11,
+      "fills": 36,
+      "revenue": 76865.0
+    },
+    {
+      "year": 1985,
+      "month": 12,
+      "fills": 45,
+      "revenue": 219768.0
+    },
+    {
+      "year": 1986,
+      "month": 1,
+      "fills": 19,
+      "revenue": 33929.0
+    },
+    {
+      "year": 1986,
+      "month": 2,
+      "fills": 27,
+      "revenue": 49053.0
+    },
+    {
+      "year": 1986,
+      "month": 3,
+      "fills": 39,
+      "revenue": 139146.0
+    },
+    {
+      "year": 1986,
+      "month": 4,
+      "fills": 47,
+      "revenue": 80062.0
+    },
+    {
+      "year": 1986,
+      "month": 5,
+      "fills": 29,
+      "revenue": 163622.0
+    },
+    {
+      "year": 1986,
+      "month": 6,
+      "fills": 42,
+      "revenue": 85815.0
+    },
+    {
+      "year": 1986,
+      "month": 7,
+      "fills": 49,
+      "revenue": 77902.0
+    },
+    {
+      "year": 1986,
+      "month": 8,
+      "fills": 33,
+      "revenue": 58217.0
+    },
+    {
+      "year": 1986,
+      "month": 9,
+      "fills": 35,
+      "revenue": 74775.0
+    },
+    {
+      "year": 1986,
+      "month": 10,
+      "fills": 36,
+      "revenue": 176972.0
+    },
+    {
+      "year": 1986,
+      "month": 11,
+      "fills": 38,
+      "revenue": 63411.0
+    },
+    {
+      "year": 1986,
+      "month": 12,
+      "fills": 45,
+      "revenue": 198710.0
+    },
+    {
+      "year": 1987,
+      "month": 1,
+      "fills": 17,
+      "revenue": 39912.0
+    },
+    {
+      "year": 1987,
+      "month": 2,
+      "fills": 29,
+      "revenue": 159041.0
+    },
+    {
+      "year": 1987,
+      "month": 3,
+      "fills": 36,
+      "revenue": 85598.0
+    },
+    {
+      "year": 1987,
+      "month": 4,
+      "fills": 40,
+      "revenue": 58868.0
+    },
+    {
+      "year": 1987,
+      "month": 5,
+      "fills": 38,
+      "revenue": 188492.0
+    },
+    {
+      "year": 1987,
+      "month": 6,
+      "fills": 31,
+      "revenue": 71382.0
+    },
+    {
+      "year": 1987,
+      "month": 7,
+      "fills": 41,
+      "revenue": 59242.0
+    },
+    {
+      "year": 1987,
+      "month": 8,
+      "fills": 24,
+      "revenue": 52049.0
+    },
+    {
+      "year": 1987,
+      "month": 9,
+      "fills": 54,
+      "revenue": 236409.0
+    },
+    {
+      "year": 1987,
+      "month": 10,
+      "fills": 48,
+      "revenue": 283589.0
+    },
+    {
+      "year": 1987,
+      "month": 11,
+      "fills": 33,
+      "revenue": 139738.0
+    },
+    {
+      "year": 1987,
+      "month": 12,
+      "fills": 36,
+      "revenue": 229071.0
+    },
+    {
+      "year": 1988,
+      "month": 1,
+      "fills": 30,
+      "revenue": 47493.0
+    },
+    {
+      "year": 1988,
+      "month": 2,
+      "fills": 33,
+      "revenue": 242826.0
+    },
+    {
+      "year": 1988,
+      "month": 3,
+      "fills": 31,
+      "revenue": 68406.0
+    },
+    {
+      "year": 1988,
+      "month": 4,
+      "fills": 31,
+      "revenue": 963729.0
+    },
+    {
+      "year": 1988,
+      "month": 5,
+      "fills": 59,
+      "revenue": 87087.0
+    },
+    {
+      "year": 1988,
+      "month": 6,
+      "fills": 26,
+      "revenue": 224718.0
+    },
+    {
+      "year": 1988,
+      "month": 7,
+      "fills": 40,
+      "revenue": 79624.0
+    },
+    {
+      "year": 1988,
+      "month": 8,
+      "fills": 31,
+      "revenue": 160167.0
+    },
+    {
+      "year": 1988,
+      "month": 9,
+      "fills": 47,
+      "revenue": 82980.0
+    },
+    {
+      "year": 1988,
+      "month": 10,
+      "fills": 30,
+      "revenue": 220064.0
+    },
+    {
+      "year": 1988,
+      "month": 11,
+      "fills": 37,
+      "revenue": 175722.0
+    },
+    {
+      "year": 1988,
+      "month": 12,
+      "fills": 37,
+      "revenue": 69701.0
+    },
+    {
+      "year": 1989,
+      "month": 1,
+      "fills": 31,
+      "revenue": 56438.0
+    },
+    {
+      "year": 1989,
+      "month": 2,
+      "fills": 26,
+      "revenue": 193792.0
+    },
+    {
+      "year": 1989,
+      "month": 3,
+      "fills": 35,
+      "revenue": 74191.0
+    },
+    {
+      "year": 1989,
+      "month": 4,
+      "fills": 33,
+      "revenue": 158208.0
+    },
+    {
+      "year": 1989,
+      "month": 5,
+      "fills": 51,
+      "revenue": 232203.0
+    },
+    {
+      "year": 1989,
+      "month": 6,
+      "fills": 20,
+      "revenue": 37370.0
+    },
+    {
+      "year": 1989,
+      "month": 7,
+      "fills": 41,
+      "revenue": 115048.0
+    },
+    {
+      "year": 1989,
+      "month": 8,
+      "fills": 45,
+      "revenue": 178228.0
+    },
+    {
+      "year": 1989,
+      "month": 9,
+      "fills": 53,
+      "revenue": 103639.0
+    },
+    {
+      "year": 1989,
+      "month": 10,
+      "fills": 29,
+      "revenue": 48711.0
+    },
+    {
+      "year": 1989,
+      "month": 11,
+      "fills": 32,
+      "revenue": 67222.0
+    },
+    {
+      "year": 1989,
+      "month": 12,
+      "fills": 28,
+      "revenue": 221416.0
+    },
+    {
+      "year": 1990,
+      "month": 1,
+      "fills": 38,
+      "revenue": 112321.0
+    },
+    {
+      "year": 1990,
+      "month": 2,
+      "fills": 23,
+      "revenue": 53883.0
+    },
+    {
+      "year": 1990,
+      "month": 3,
+      "fills": 31,
+      "revenue": 210016.0
+    },
+    {
+      "year": 1990,
+      "month": 4,
+      "fills": 50,
+      "revenue": 210505.0
+    },
+    {
+      "year": 1990,
+      "month": 5,
+      "fills": 53,
+      "revenue": 109933.0
+    },
+    {
+      "year": 1990,
+      "month": 6,
+      "fills": 25,
+      "revenue": 38731.0
+    },
+    {
+      "year": 1990,
+      "month": 7,
+      "fills": 48,
+      "revenue": 100850.0
+    },
+    {
+      "year": 1990,
+      "month": 8,
+      "fills": 46,
+      "revenue": 197880.0
+    },
+    {
+      "year": 1990,
+      "month": 9,
+      "fills": 43,
+      "revenue": 225278.0
+    },
+    {
+      "year": 1990,
+      "month": 10,
+      "fills": 55,
+      "revenue": 203383.0
+    },
+    {
+      "year": 1990,
+      "month": 11,
+      "fills": 35,
+      "revenue": 62761.0
+    },
+    {
+      "year": 1990,
+      "month": 12,
+      "fills": 30,
+      "revenue": 59761.0
+    },
+    {
+      "year": 1991,
+      "month": 1,
+      "fills": 51,
+      "revenue": 215081.0
+    },
+    {
+      "year": 1991,
+      "month": 2,
+      "fills": 23,
+      "revenue": 40629.0
+    },
+    {
+      "year": 1991,
+      "month": 3,
+      "fills": 40,
+      "revenue": 54017.0
+    },
+    {
+      "year": 1991,
+      "month": 4,
+      "fills": 47,
+      "revenue": 265944.0
+    },
+    {
+      "year": 1991,
+      "month": 5,
+      "fills": 57,
+      "revenue": 80942.0
+    },
+    {
+      "year": 1991,
+      "month": 6,
+      "fills": 37,
+      "revenue": 54704.0
+    },
+    {
+      "year": 1991,
+      "month": 7,
+      "fills": 50,
+      "revenue": 196183.0
+    },
+    {
+      "year": 1991,
+      "month": 8,
+      "fills": 38,
+      "revenue": 71891.0
+    },
+    {
+      "year": 1991,
+      "month": 9,
+      "fills": 45,
+      "revenue": 63145.0
+    },
+    {
+      "year": 1991,
+      "month": 10,
+      "fills": 40,
+      "revenue": 166134.0
+    },
+    {
+      "year": 1991,
+      "month": 11,
+      "fills": 62,
+      "revenue": 78612.0
+    },
+    {
+      "year": 1991,
+      "month": 12,
+      "fills": 32,
+      "revenue": 166810.0
+    },
+    {
+      "year": 1992,
+      "month": 1,
+      "fills": 47,
+      "revenue": 130141.0
+    },
+    {
+      "year": 1992,
+      "month": 2,
+      "fills": 26,
+      "revenue": 49633.0
+    },
+    {
+      "year": 1992,
+      "month": 3,
+      "fills": 44,
+      "revenue": 344493.0
+    },
+    {
+      "year": 1992,
+      "month": 4,
+      "fills": 53,
+      "revenue": 93132.0
+    },
+    {
+      "year": 1992,
+      "month": 5,
+      "fills": 46,
+      "revenue": 240265.0
+    },
+    {
+      "year": 1992,
+      "month": 6,
+      "fills": 62,
+      "revenue": 155509.0
+    },
+    {
+      "year": 1992,
+      "month": 7,
+      "fills": 54,
+      "revenue": 259861.0
+    },
+    {
+      "year": 1992,
+      "month": 8,
+      "fills": 47,
+      "revenue": 334107.0
+    },
+    {
+      "year": 1992,
+      "month": 9,
+      "fills": 31,
+      "revenue": 69107.0
+    },
+    {
+      "year": 1992,
+      "month": 10,
+      "fills": 58,
+      "revenue": 101687.0
+    },
+    {
+      "year": 1992,
+      "month": 11,
+      "fills": 34,
+      "revenue": 65790.0
+    },
+    {
+      "year": 1992,
+      "month": 12,
+      "fills": 39,
+      "revenue": 65557.0
+    },
+    {
+      "year": 1993,
+      "month": 1,
+      "fills": 48,
+      "revenue": 92247.0
+    },
+    {
+      "year": 1993,
+      "month": 2,
+      "fills": 34,
+      "revenue": 51557.0
+    },
+    {
+      "year": 1993,
+      "month": 3,
+      "fills": 36,
+      "revenue": 173064.0
+    },
+    {
+      "year": 1993,
+      "month": 4,
+      "fills": 43,
+      "revenue": 79133.0
+    },
+    {
+      "year": 1993,
+      "month": 5,
+      "fills": 41,
+      "revenue": 147087.0
+    },
+    {
+      "year": 1993,
+      "month": 6,
+      "fills": 62,
+      "revenue": 93070.0
+    },
+    {
+      "year": 1993,
+      "month": 7,
+      "fills": 52,
+      "revenue": 261524.0
+    },
+    {
+      "year": 1993,
+      "month": 8,
+      "fills": 42,
+      "revenue": 78855.0
+    },
+    {
+      "year": 1993,
+      "month": 9,
+      "fills": 43,
+      "revenue": 165654.0
+    },
+    {
+      "year": 1993,
+      "month": 10,
+      "fills": 48,
+      "revenue": 98497.0
+    },
+    {
+      "year": 1993,
+      "month": 11,
+      "fills": 41,
+      "revenue": 154922.0
+    },
+    {
+      "year": 1993,
+      "month": 12,
+      "fills": 40,
+      "revenue": 75783.0
+    },
+    {
+      "year": 1994,
+      "month": 1,
+      "fills": 40,
+      "revenue": 91365.0
+    },
+    {
+      "year": 1994,
+      "month": 2,
+      "fills": 40,
+      "revenue": 87567.0
+    },
+    {
+      "year": 1994,
+      "month": 3,
+      "fills": 49,
+      "revenue": 202010.0
+    },
+    {
+      "year": 1994,
+      "month": 4,
+      "fills": 48,
+      "revenue": 83299.0
+    },
+    {
+      "year": 1994,
+      "month": 5,
+      "fills": 76,
+      "revenue": 479589.0
+    },
+    {
+      "year": 1994,
+      "month": 6,
+      "fills": 76,
+      "revenue": 346165.0
+    },
+    {
+      "year": 1994,
+      "month": 7,
+      "fills": 59,
+      "revenue": 191283.0
+    },
+    {
+      "year": 1994,
+      "month": 8,
+      "fills": 57,
+      "revenue": 207574.0
+    },
+    {
+      "year": 1994,
+      "month": 9,
+      "fills": 51,
+      "revenue": 101102.0
+    },
+    {
+      "year": 1994,
+      "month": 10,
+      "fills": 57,
+      "revenue": 511369.0
+    },
+    {
+      "year": 1994,
+      "month": 11,
+      "fills": 49,
+      "revenue": 235928.0
+    },
+    {
+      "year": 1994,
+      "month": 12,
+      "fills": 49,
+      "revenue": 89916.0
+    },
+    {
+      "year": 1995,
+      "month": 1,
+      "fills": 50,
+      "revenue": 208070.0
+    },
+    {
+      "year": 1995,
+      "month": 2,
+      "fills": 38,
+      "revenue": 73290.0
+    },
+    {
+      "year": 1995,
+      "month": 3,
+      "fills": 51,
+      "revenue": 83439.0
+    },
+    {
+      "year": 1995,
+      "month": 4,
+      "fills": 54,
+      "revenue": 97830.0
+    },
+    {
+      "year": 1995,
+      "month": 5,
+      "fills": 50,
+      "revenue": 170781.0
+    },
+    {
+      "year": 1995,
+      "month": 6,
+      "fills": 66,
+      "revenue": 231485.0
+    },
+    {
+      "year": 1995,
+      "month": 7,
+      "fills": 44,
+      "revenue": 120840.0
+    },
+    {
+      "year": 1995,
+      "month": 8,
+      "fills": 75,
+      "revenue": 216534.0
+    },
+    {
+      "year": 1995,
+      "month": 9,
+      "fills": 49,
+      "revenue": 93084.0
+    },
+    {
+      "year": 1995,
+      "month": 10,
+      "fills": 45,
+      "revenue": 93094.0
+    },
+    {
+      "year": 1995,
+      "month": 11,
+      "fills": 45,
+      "revenue": 165569.0
+    },
+    {
+      "year": 1995,
+      "month": 12,
+      "fills": 61,
+      "revenue": 74522.0
+    },
+    {
+      "year": 1996,
+      "month": 1,
+      "fills": 50,
+      "revenue": 76978.0
+    },
+    {
+      "year": 1996,
+      "month": 2,
+      "fills": 55,
+      "revenue": 103642.0
+    },
+    {
+      "year": 1996,
+      "month": 3,
+      "fills": 55,
+      "revenue": 64120.0
+    },
+    {
+      "year": 1996,
+      "month": 4,
+      "fills": 52,
+      "revenue": 86870.0
+    },
+    {
+      "year": 1996,
+      "month": 5,
+      "fills": 87,
+      "revenue": 268600.0
+    },
+    {
+      "year": 1996,
+      "month": 6,
+      "fills": 59,
+      "revenue": 121941.0
+    },
+    {
+      "year": 1996,
+      "month": 7,
+      "fills": 40,
+      "revenue": 148091.0
+    },
+    {
+      "year": 1996,
+      "month": 8,
+      "fills": 62,
+      "revenue": 175664.0
+    },
+    {
+      "year": 1996,
+      "month": 9,
+      "fills": 56,
+      "revenue": 165559.0
+    },
+    {
+      "year": 1996,
+      "month": 10,
+      "fills": 58,
+      "revenue": 76728.0
+    },
+    {
+      "year": 1996,
+      "month": 11,
+      "fills": 69,
+      "revenue": 99671.0
+    },
+    {
+      "year": 1996,
+      "month": 12,
+      "fills": 65,
+      "revenue": 85014.0
+    },
+    {
+      "year": 1997,
+      "month": 1,
+      "fills": 47,
+      "revenue": 85191.0
+    },
+    {
+      "year": 1997,
+      "month": 2,
+      "fills": 57,
+      "revenue": 230215.0
+    },
+    {
+      "year": 1997,
+      "month": 3,
+      "fills": 43,
+      "revenue": 132031.0
+    },
+    {
+      "year": 1997,
+      "month": 4,
+      "fills": 47,
+      "revenue": 272363.0
+    },
+    {
+      "year": 1997,
+      "month": 5,
+      "fills": 80,
+      "revenue": 220354.0
+    },
+    {
+      "year": 1997,
+      "month": 6,
+      "fills": 74,
+      "revenue": 457736.0
+    },
+    {
+      "year": 1997,
+      "month": 7,
+      "fills": 61,
+      "revenue": 82008.0
+    },
+    {
+      "year": 1997,
+      "month": 8,
+      "fills": 65,
+      "revenue": 135821.0
+    },
+    {
+      "year": 1997,
+      "month": 9,
+      "fills": 49,
+      "revenue": 89911.0
+    },
+    {
+      "year": 1997,
+      "month": 10,
+      "fills": 56,
+      "revenue": 85782.0
+    },
+    {
+      "year": 1997,
+      "month": 11,
+      "fills": 82,
+      "revenue": 109313.0
+    },
+    {
+      "year": 1997,
+      "month": 12,
+      "fills": 71,
+      "revenue": 214189.0
+    },
+    {
+      "year": 1998,
+      "month": 1,
+      "fills": 47,
+      "revenue": 61453.0
+    },
+    {
+      "year": 1998,
+      "month": 2,
+      "fills": 51,
+      "revenue": 103425.0
+    },
+    {
+      "year": 1998,
+      "month": 3,
+      "fills": 58,
+      "revenue": 177772.0
+    },
+    {
+      "year": 1998,
+      "month": 4,
+      "fills": 52,
+      "revenue": 77747.0
+    },
+    {
+      "year": 1998,
+      "month": 5,
+      "fills": 90,
+      "revenue": 303172.0
+    },
+    {
+      "year": 1998,
+      "month": 6,
+      "fills": 43,
+      "revenue": 116747.0
+    },
+    {
+      "year": 1998,
+      "month": 7,
+      "fills": 95,
+      "revenue": 297698.0
+    },
+    {
+      "year": 1998,
+      "month": 8,
+      "fills": 69,
+      "revenue": 173755.0
+    },
+    {
+      "year": 1998,
+      "month": 9,
+      "fills": 57,
+      "revenue": 113972.0
+    },
+    {
+      "year": 1998,
+      "month": 10,
+      "fills": 57,
+      "revenue": 162873.0
+    },
+    {
+      "year": 1998,
+      "month": 11,
+      "fills": 76,
+      "revenue": 238101.0
+    },
+    {
+      "year": 1998,
+      "month": 12,
+      "fills": 59,
+      "revenue": 147458.0
+    },
+    {
+      "year": 1999,
+      "month": 1,
+      "fills": 67,
+      "revenue": 115330.0
+    },
+    {
+      "year": 1999,
+      "month": 2,
+      "fills": 59,
+      "revenue": 86298.0
+    },
+    {
+      "year": 1999,
+      "month": 3,
+      "fills": 74,
+      "revenue": 112230.0
+    },
+    {
+      "year": 1999,
+      "month": 4,
+      "fills": 39,
+      "revenue": 74072.0
+    },
+    {
+      "year": 1999,
+      "month": 5,
+      "fills": 73,
+      "revenue": 98686.0
+    },
+    {
+      "year": 1999,
+      "month": 6,
+      "fills": 68,
+      "revenue": 79864.0
+    },
+    {
+      "year": 1999,
+      "month": 7,
+      "fills": 88,
+      "revenue": 153715.0
+    },
+    {
+      "year": 1999,
+      "month": 8,
+      "fills": 69,
+      "revenue": 97460.0
+    },
+    {
+      "year": 1999,
+      "month": 9,
+      "fills": 80,
+      "revenue": 293534.0
+    },
+    {
+      "year": 1999,
+      "month": 10,
+      "fills": 71,
+      "revenue": 379489.0
+    },
+    {
+      "year": 1999,
+      "month": 11,
+      "fills": 84,
+      "revenue": 97041.0
+    },
+    {
+      "year": 1999,
+      "month": 12,
+      "fills": 94,
+      "revenue": 104856.0
+    },
+    {
+      "year": 2000,
+      "month": 1,
+      "fills": 73,
+      "revenue": 261433.0
+    },
+    {
+      "year": 2000,
+      "month": 2,
+      "fills": 57,
+      "revenue": 98553.0
+    },
+    {
+      "year": 2000,
+      "month": 3,
+      "fills": 79,
+      "revenue": 193905.0
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "fills": 66,
+      "revenue": 155803.0
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "fills": 89,
+      "revenue": 130479.0
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "fills": 63,
+      "revenue": 151220.0
+    },
+    {
+      "year": 2000,
+      "month": 7,
+      "fills": 104,
+      "revenue": 340278.0
+    },
+    {
+      "year": 2000,
+      "month": 8,
+      "fills": 57,
+      "revenue": 215034.0
+    },
+    {
+      "year": 2000,
+      "month": 9,
+      "fills": 78,
+      "revenue": 171281.0
+    },
+    {
+      "year": 2000,
+      "month": 10,
+      "fills": 69,
+      "revenue": 172942.0
+    },
+    {
+      "year": 2000,
+      "month": 11,
+      "fills": 58,
+      "revenue": 264318.0
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "fills": 103,
+      "revenue": 107831.0
+    },
+    {
+      "year": 2001,
+      "month": 1,
+      "fills": 70,
+      "revenue": 87230.0
+    },
+    {
+      "year": 2001,
+      "month": 2,
+      "fills": 51,
+      "revenue": 189745.0
+    },
+    {
+      "year": 2001,
+      "month": 3,
+      "fills": 89,
+      "revenue": 192297.0
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "fills": 64,
+      "revenue": 67656.0
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "fills": 64,
+      "revenue": 260703.0
+    },
+    {
+      "year": 2001,
+      "month": 6,
+      "fills": 74,
+      "revenue": 101808.0
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "fills": 95,
+      "revenue": 136745.0
+    },
+    {
+      "year": 2001,
+      "month": 8,
+      "fills": 70,
+      "revenue": 182857.0
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "fills": 79,
+      "revenue": 163465.0
+    },
+    {
+      "year": 2001,
+      "month": 10,
+      "fills": 98,
+      "revenue": 248936.0
+    },
+    {
+      "year": 2001,
+      "month": 11,
+      "fills": 62,
+      "revenue": 139979.0
+    },
+    {
+      "year": 2001,
+      "month": 12,
+      "fills": 109,
+      "revenue": 123759.0
+    },
+    {
+      "year": 2002,
+      "month": 1,
+      "fills": 63,
+      "revenue": 234531.0
+    },
+    {
+      "year": 2002,
+      "month": 2,
+      "fills": 76,
+      "revenue": 119945.0
+    },
+    {
+      "year": 2002,
+      "month": 3,
+      "fills": 103,
+      "revenue": 211443.0
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "fills": 78,
+      "revenue": 229343.0
+    },
+    {
+      "year": 2002,
+      "month": 5,
+      "fills": 67,
+      "revenue": 228240.0
+    },
+    {
+      "year": 2002,
+      "month": 6,
+      "fills": 98,
+      "revenue": 808835.0
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "fills": 92,
+      "revenue": 269747.0
+    },
+    {
+      "year": 2002,
+      "month": 8,
+      "fills": 104,
+      "revenue": 215242.0
+    },
+    {
+      "year": 2002,
+      "month": 9,
+      "fills": 86,
+      "revenue": 166336.0
+    },
+    {
+      "year": 2002,
+      "month": 10,
+      "fills": 74,
+      "revenue": 180545.0
+    },
+    {
+      "year": 2002,
+      "month": 11,
+      "fills": 85,
+      "revenue": 106565.0
+    },
+    {
+      "year": 2002,
+      "month": 12,
+      "fills": 109,
+      "revenue": 198350.0
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "fills": 88,
+      "revenue": 110172.0
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "fills": 50,
+      "revenue": 78617.0
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "fills": 78,
+      "revenue": 122560.0
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "fills": 79,
+      "revenue": 101593.0
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "fills": 77,
+      "revenue": 196498.0
+    },
+    {
+      "year": 2003,
+      "month": 6,
+      "fills": 82,
+      "revenue": 198843.0
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "fills": 80,
+      "revenue": 119846.0
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "fills": 127,
+      "revenue": 394657.0
+    },
+    {
+      "year": 2003,
+      "month": 9,
+      "fills": 91,
+      "revenue": 166168.0
+    },
+    {
+      "year": 2003,
+      "month": 10,
+      "fills": 84,
+      "revenue": 121191.0
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "fills": 85,
+      "revenue": 193218.0
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "fills": 104,
+      "revenue": 233552.0
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "fills": 90,
+      "revenue": 206591.0
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "fills": 69,
+      "revenue": 90786.0
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "fills": 86,
+      "revenue": 224152.0
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "fills": 95,
+      "revenue": 251232.0
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "fills": 105,
+      "revenue": 176651.0
+    },
+    {
+      "year": 2004,
+      "month": 6,
+      "fills": 100,
+      "revenue": 134986.0
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "fills": 84,
+      "revenue": 180945.0
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "fills": 135,
+      "revenue": 173531.0
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "fills": 95,
+      "revenue": 98608.0
+    },
+    {
+      "year": 2004,
+      "month": 10,
+      "fills": 87,
+      "revenue": 159440.0
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "fills": 93,
+      "revenue": 142985.0
+    },
+    {
+      "year": 2004,
+      "month": 12,
+      "fills": 96,
+      "revenue": 259875.0
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "fills": 102,
+      "revenue": 113636.0
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "fills": 57,
+      "revenue": 73212.0
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "fills": 98,
+      "revenue": 144450.0
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "fills": 89,
+      "revenue": 155247.0
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "fills": 76,
+      "revenue": 85222.0
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "fills": 80,
+      "revenue": 108352.0
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "fills": 65,
+      "revenue": 118410.0
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "fills": 123,
+      "revenue": 189829.0
+    },
+    {
+      "year": 2005,
+      "month": 9,
+      "fills": 48,
+      "revenue": 68589.0
+    },
+    {
+      "year": 2005,
+      "month": 10,
+      "fills": 94,
+      "revenue": 180059.0
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "fills": 77,
+      "revenue": 117503.0
+    },
+    {
+      "year": 2005,
+      "month": 12,
+      "fills": 96,
+      "revenue": 118265.0
+    },
+    {
+      "year": 2006,
+      "month": 1,
+      "fills": 69,
+      "revenue": 101674.0
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "fills": 85,
+      "revenue": 163079.0
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "fills": 70,
+      "revenue": 126656.0
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "fills": 96,
+      "revenue": 124697.0
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "fills": 69,
+      "revenue": 176414.0
+    },
+    {
+      "year": 2006,
+      "month": 6,
+      "fills": 75,
+      "revenue": 106850.0
+    },
+    {
+      "year": 2006,
+      "month": 7,
+      "fills": 90,
+      "revenue": 141204.0
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "fills": 110,
+      "revenue": 220817.0
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "fills": 81,
+      "revenue": 189904.0
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "fills": 90,
+      "revenue": 190336.0
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "fills": 69,
+      "revenue": 155208.0
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "fills": 89,
+      "revenue": 100653.0
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "fills": 104,
+      "revenue": 635528.0
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "fills": 88,
+      "revenue": 72191.0
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "fills": 81,
+      "revenue": 185807.0
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "fills": 87,
+      "revenue": 167133.0
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "fills": 105,
+      "revenue": 122084.0
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "fills": 77,
+      "revenue": 192363.0
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "fills": 83,
+      "revenue": 217730.0
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "fills": 86,
+      "revenue": 132326.0
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "fills": 92,
+      "revenue": 97119.0
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "fills": 85,
+      "revenue": 141040.0
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "fills": 102,
+      "revenue": 126110.0
+    },
+    {
+      "year": 2007,
+      "month": 12,
+      "fills": 73,
+      "revenue": 119351.0
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "fills": 103,
+      "revenue": 190211.0
+    },
+    {
+      "year": 2008,
+      "month": 2,
+      "fills": 83,
+      "revenue": 227641.0
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "fills": 71,
+      "revenue": 175653.0
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "fills": 96,
+      "revenue": 256761.0
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "fills": 74,
+      "revenue": 147321.0
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "fills": 76,
+      "revenue": 108261.0
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "fills": 95,
+      "revenue": 251250.0
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "fills": 110,
+      "revenue": 186203.0
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "fills": 76,
+      "revenue": 220269.0
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "fills": 96,
+      "revenue": 151951.0
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "fills": 91,
+      "revenue": 267099.0
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "fills": 88,
+      "revenue": 125402.0
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "fills": 108,
+      "revenue": 182656.0
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "fills": 69,
+      "revenue": 89140.0
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "fills": 88,
+      "revenue": 178918.0
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "fills": 122,
+      "revenue": 300912.0
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "fills": 97,
+      "revenue": 163542.0
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "fills": 75,
+      "revenue": 194420.0
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "fills": 106,
+      "revenue": 239845.0
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "fills": 75,
+      "revenue": 137439.0
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "fills": 126,
+      "revenue": 308191.0
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "fills": 100,
+      "revenue": 275889.0
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "fills": 66,
+      "revenue": 166594.0
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "fills": 86,
+      "revenue": 182569.0
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "fills": 131,
+      "revenue": 138393.0
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "fills": 108,
+      "revenue": 222433.0
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "fills": 92,
+      "revenue": 130247.0
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "fills": 94,
+      "revenue": 222886.0
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "fills": 129,
+      "revenue": 488678.0
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "fills": 77,
+      "revenue": 151430.0
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "fills": 127,
+      "revenue": 196599.0
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "fills": 129,
+      "revenue": 161711.0
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "fills": 121,
+      "revenue": 241077.0
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "fills": 115,
+      "revenue": 161388.0
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "fills": 101,
+      "revenue": 139016.0
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "fills": 93,
+      "revenue": 226110.0
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "fills": 131,
+      "revenue": 196540.0
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "fills": 128,
+      "revenue": 213010.0
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "fills": 118,
+      "revenue": 179305.0
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "fills": 103,
+      "revenue": 220465.0
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "fills": 128,
+      "revenue": 203797.0
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "fills": 103,
+      "revenue": 163524.0
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "fills": 143,
+      "revenue": 318771.0
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "fills": 114,
+      "revenue": 178860.0
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "fills": 156,
+      "revenue": 338490.0
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "fills": 106,
+      "revenue": 235449.0
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "fills": 131,
+      "revenue": 200138.0
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "fills": 114,
+      "revenue": 199374.0
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "fills": 93,
+      "revenue": 168657.0
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "fills": 112,
+      "revenue": 212981.0
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "fills": 131,
+      "revenue": 180891.0
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "fills": 116,
+      "revenue": 185805.0
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "fills": 104,
+      "revenue": 202686.0
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "fills": 125,
+      "revenue": 192904.0
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "fills": 152,
+      "revenue": 198374.0
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "fills": 110,
+      "revenue": 170551.0
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "fills": 138,
+      "revenue": 177210.0
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "fills": 132,
+      "revenue": 235871.0
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "fills": 124,
+      "revenue": 241976.0
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "fills": 113,
+      "revenue": 224568.0
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "fills": 133,
+      "revenue": 171086.0
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "fills": 113,
+      "revenue": 162283.0
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "fills": 154,
+      "revenue": 167232.0
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "fills": 132,
+      "revenue": 203186.0
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "fills": 137,
+      "revenue": 263852.0
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "fills": 106,
+      "revenue": 194102.0
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "fills": 129,
+      "revenue": 192778.0
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "fills": 152,
+      "revenue": 246071.0
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "fills": 148,
+      "revenue": 208470.0
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "fills": 150,
+      "revenue": 211319.0
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "fills": 161,
+      "revenue": 247219.0
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "fills": 116,
+      "revenue": 148314.0
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "fills": 147,
+      "revenue": 196911.0
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "fills": 117,
+      "revenue": 178180.0
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "fills": 150,
+      "revenue": 222201.0
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "fills": 134,
+      "revenue": 271170.0
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "fills": 141,
+      "revenue": 258799.0
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "fills": 135,
+      "revenue": 175563.0
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "fills": 144,
+      "revenue": 214599.0
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "fills": 136,
+      "revenue": 205994.0
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "fills": 139,
+      "revenue": 131937.0
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "fills": 161,
+      "revenue": 276630.0
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "fills": 150,
+      "revenue": 195946.0
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "fills": 126,
+      "revenue": 235771.0
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "fills": 148,
+      "revenue": 228972.0
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "fills": 138,
+      "revenue": 165488.0
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "fills": 130,
+      "revenue": 230272.0
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "fills": 117,
+      "revenue": 217698.0
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "fills": 134,
+      "revenue": 210555.0
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "fills": 126,
+      "revenue": 156379.0
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "fills": 125,
+      "revenue": 223530.0
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "fills": 152,
+      "revenue": 178265.0
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "fills": 124,
+      "revenue": 166697.0
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "fills": 161,
+      "revenue": 298410.0
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "fills": 134,
+      "revenue": 173750.0
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "fills": 138,
+      "revenue": 204981.0
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "fills": 125,
+      "revenue": 259470.0
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "fills": 131,
+      "revenue": 339296.0
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "fills": 138,
+      "revenue": 178100.0
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "fills": 158,
+      "revenue": 229016.0
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "fills": 136,
+      "revenue": 207545.0
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "fills": 100,
+      "revenue": 109412.0
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "fills": 142,
+      "revenue": 222560.0
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "fills": 106,
+      "revenue": 120606.0
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "fills": 141,
+      "revenue": 154414.0
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "fills": 191,
+      "revenue": 302920.0
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "fills": 127,
+      "revenue": 166731.0
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "fills": 143,
+      "revenue": 211206.0
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "fills": 159,
+      "revenue": 201041.0
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "fills": 124,
+      "revenue": 158916.0
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "fills": 154,
+      "revenue": 149983.0
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "fills": 133,
+      "revenue": 181084.0
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "fills": 132,
+      "revenue": 202523.0
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "fills": 154,
+      "revenue": 204978.0
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "fills": 163,
+      "revenue": 225635.0
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "fills": 144,
+      "revenue": 179815.0
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "fills": 111,
+      "revenue": 185629.0
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "fills": 181,
+      "revenue": 247415.0
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "fills": 115,
+      "revenue": 163014.0
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "fills": 159,
+      "revenue": 215684.0
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "fills": 137,
+      "revenue": 178479.0
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "fills": 99,
+      "revenue": 171662.0
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "fills": 154,
+      "revenue": 190717.0
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "fills": 127,
+      "revenue": 177337.0
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "fills": 129,
+      "revenue": 183985.0
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "fills": 130,
+      "revenue": 200012.0
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "fills": 137,
+      "revenue": 200721.0
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "fills": 143,
+      "revenue": 238219.0
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "fills": 146,
+      "revenue": 201520.0
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "fills": 157,
+      "revenue": 235951.0
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "fills": 137,
+      "revenue": 185301.0
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "fills": 180,
+      "revenue": 212489.0
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "fills": 138,
+      "revenue": 176354.0
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "fills": 118,
+      "revenue": 175429.0
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "fills": 151,
+      "revenue": 198151.0
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "fills": 147,
+      "revenue": 152545.0
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "fills": 140,
+      "revenue": 186085.0
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "fills": 137,
+      "revenue": 210871.0
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "fills": 121,
+      "revenue": 150570.0
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "fills": 171,
+      "revenue": 169988.0
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "fills": 102,
+      "revenue": 111778.0
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "fills": 147,
+      "revenue": 112378.0
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "fills": 145,
+      "revenue": 115461.0
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "fills": 161,
+      "revenue": 95038.0
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "fills": 149,
+      "revenue": 71917.0
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "fills": 131,
+      "revenue": 69642.0
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "fills": 167,
+      "revenue": 52974.0
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "fills": 123,
+      "revenue": 27383.0
+    }
+  ]
+}
