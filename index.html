@@ -300,31 +300,27 @@ async function loadJSON(path) {
 }
 
 async function loadAll() {
-  const [kpis, topDrugs, payerMix, specialties, ageBands, states, trend, taPatients, taEncCost, icd10,
-         drugClass, adherence, searchData, filters,
+  const [kpisData, searchData, filters,
          meds, encs, conds] = await Promise.all([
-    loadJSON('data.json').then(d => ({kpis: d.kpis, topDrugs: d.top_drugs, payerMix: d.payer_mix,
-      specialties: d.specialties, ageBands: d.age_bands, states: d.states, trend: d.trend,
-      taPatients: d.ta_patients, taEncCost: d.ta_enc_cost, icd10: d.icd10, drugClass: d.drug_class,
-      adherence: d.adherence})),
+    loadJSON('data.json'),
     loadJSON('data/search_data.json'),
     loadJSON('data/filters.json'),
     loadGz('data/fact_med.json.gz'),
     loadGz('data/fact_enc.json.gz'),
     loadGz('data/conditions.json.gz'),
   ]);
-  RAW.kpis = kpis.kpis;
-  RAW.topDrugs = kpis.topDrugs;
-  RAW.payerMix = kpis.payerMix;
-  RAW.specialties = kpis.specialties;
-  RAW.ageBands = kpis.ageBands;
-  RAW.states = kpis.states;
-  RAW.trend = kpis.trend;
-  RAW.taPatients = kpis.taPatients;
-  RAW.taEncCost = kpis.taEncCost;
-  RAW.icd10 = kpis.icd10;
-  RAW.drugClass = kpis.drugClass;
-  RAW.adherence = kpis.adherence;
+  RAW.kpis = kpisData.kpis;
+  RAW.topDrugs = kpisData.top_drugs;
+  RAW.payerMix = kpisData.payer_mix;
+  RAW.specialties = kpisData.specialties;
+  RAW.ageBands = kpisData.age_bands;
+  RAW.states = kpisData.states;
+  RAW.trend = kpisData.trend;
+  RAW.taPatients = kpisData.ta_patients;
+  RAW.taEncCost = kpisData.ta_enc_cost;
+  RAW.icd10 = kpisData.icd10;
+  RAW.drugClass = kpisData.drug_class;
+  RAW.adherence = kpisData.adherence;
   RAW.searchData = searchData;
   RAW.filters = filters;
   state.data.meds = meds;
