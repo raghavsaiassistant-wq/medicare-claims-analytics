@@ -398,7 +398,7 @@ function applyFilters() {
   const totalFills = filteredMeds.length;
   const totalEncs = filteredEncs.length;
   const uniqueDrugs = new Set(filteredMeds.map(r => r.dd)).size;
-  const uniqueProviders = new Set(filteredEncs.map(r => row.prk || '?')).size;
+  const uniqueProviders = new Set(filteredEncs.map(e => e.prk || '?')).size;
   const uniquePayers = new Set(filteredMeds.map(r => r.yn).concat(filteredEncs.map(r => r.yn))).size;
 
   renderKPIs({
