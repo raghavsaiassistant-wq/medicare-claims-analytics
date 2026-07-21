@@ -399,8 +399,15 @@ function buildFilterDropdowns() {
     }
     const actions = document.createElement('div');
     actions.className = 'dd-actions';
-    actions.innerHTML = `<button onclick="event.stopPropagation(); ddSelectAll('${cfg.dim}')">All</button><button onclick="event.stopPropagation(); ddSelectNone('${cfg.dim}')">None</button>`;
-    menu.appendChild(actions);
+    const btnAll = document.createElement('button');
+    btnAll.textContent = 'All';
+    btnAll.addEventListener('click', (e) => { e.stopPropagation(); ddSelectAll(cfg.dim); });
+    const btnNone = document.createElement('button');
+    btnNone.textContent = 'None';
+    btnNone.addEventListener('click', (e) => { e.stopPropagation(); ddSelectNone(cfg.dim); });
+    actions.appendChild(btnAll);
+    actions.appendChild(btnNone);
+    menu.appendChild(actions)
     for (const v of values) {
       const item = document.createElement('label');
       item.className = 'dd-item';
