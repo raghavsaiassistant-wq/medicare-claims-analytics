@@ -268,13 +268,21 @@ function sum(arr) { return arr.reduce((a,b) => a + (b||0), 0); }
 // ==================== DATA LOAD ====================
 async function loadGz(path) {
   const r = await fetch(path);
+  if (!r.ok) throw new Error(`${path} HTTP ${r.status}`);
   const buf = await r.arrayBuffer();
   const decompressed = pako.ungzip(new Uint8Array(buf), { to: 'string' });
+  if (decompressed.trim().startsWith('<')) {
+    throw new Error(`${path} decompressed to HTML, not JSON. First chars: ${decompressed.slice(0, 80)}`);
+  }
   return JSON.parse(decompressed);
 }
 async function loadJSON(path) {
   const r = await fetch(path);
-  return r.json();
+  const text = await r.text();
+  if (text.trim().startsWith('<')) {
+    throw new Error(`${path} returned HTML (likely 404 or error page). First chars: ${text.slice(0, 80)}`);
+  }
+  return JSON.parse(text);
 }
 
 async function loadAll() {
@@ -987,10 +995,10 @@ function initDashboard() {
 // Start
 loadAll().catch(e => {
   document.getElementById('loading').innerHTML =
-    `<div style="color:#a4262c;text-align:center;padding:20px">
+    `<div style="color:#a4262c;text-align:center;padding:20px;max-width:600px">
       <div style="font-size:18px;margin-bottom:8px">⚠ Error loading dashboard</div>
-      <div style="font-size:12px;color:#605e5c">${e.message}</div>
-      <div style="font-size:11px;margin-top:12px;color:#8a8886">Check console for details.</div>
+      <div style="font-size:13px;color:#252423;margin:8px 0">${e.message}</div>
+      <div style="font-size:11px;margin-top:12px;color:#605e5c">Check console for details.</div>
     </div>`;
   console.error(e);
 });
